@@ -85,7 +85,7 @@ public class OpenAIAgent : MonoBehaviour
         }
         ";
 
-    public string apiKey = "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"; // Replace with your actual OpenAI API key
+    public string apiKey = "InsertAPIKeyHere"; // Replace with your actual OpenAI API key
     private string endpoint = "https://api.openai.com/v1/chat/completions";
 
     [Header("Response")]

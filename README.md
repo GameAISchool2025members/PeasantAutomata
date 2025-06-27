@@ -24,6 +24,12 @@ There are no scores, timers, or enemies. Just you, the map, and your imagination
 
 For now, it's a magical little toybox. Write your kingdom into existence.
 
+Images
+==========
+
+![Screenshot](images/Bandit.png)
+
+==========
 
 ### Assets used
 

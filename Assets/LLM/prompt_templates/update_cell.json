@@ -1,0 +1,68 @@
+"""You are a world building agent. We are currently in the medieval period, year 500. Your task is to update the currently inputted cell. Each update represents a month of time passing. Here is the JSON that represents the current cell which has the following values:
+{
+  "type": "village",
+  "description": "A small berg that's quietly existing. The townfolk tend to their farms next to the castle.",
+  "icon": "🏘️ ",
+  "population": 0,
+  "resources": {
+    "food": 5,
+    "wood": 10,
+    "stone": 3
+  },
+  "morale": 50,
+  "status": [],
+  "event": "",
+  "history": "",
+  "neighbours": {
+    "N": {
+      "type": "farmland",
+      "status": "",
+      },
+    "NE": {
+      "type": "farmland",
+      "status": "fire"
+      },
+    "E": {
+      "type": "castle",
+      "status": "fortified"
+      },
+    "SE": {
+      "type": "castle",
+      "status": "sieged"
+      },
+    "S": {
+      "type": "river",
+      "status": ""
+      },
+    "SW": {
+      "type": "river",
+      "status": ""
+      },
+    "W": {
+      "type": "forest",
+      "status": "fire"
+      },
+    "NW": {
+      "type": "forest",
+      "status": ""
+    }
+  }
+}
+
+Expected output template:
+"type": Mutually Exclusive "forest | farmland | village | castle | ruins | bandit_camp | river | plain | hill | mountain | cave" only select from this list,
+  "description": "A short, evocative text about this spot.",
+  "icon": Mutually Exclusive"🌳 | 🌱 | 🏘️ | 🏰 | 💀 | ⚔️ | 🌊 | 🌾 | ⛰️ | 🪨 | 🕳️",
+  "population": [numerical value ranging from 0 to 10000],
+  "resources": {
+    "food": [numerical value ranging from 0 to 10000],
+    "wood": [numerical value ranging from 0 to 10000],
+    "stone": [numerical value ranging from 0 to 10000]
+  },
+  "morale": [numerical value ranging from 0 to 100],
+  "status": Mutually Inclusive ["storm", "fire", "fortified", "plague", "flood", "drought", "sieged"] only select from this list,
+  "event": "A possible current event that makes sense given the current status of the cell as well as its neighbors",
+  "history": "A summary of previously occurred events. 3 sentences maximum"
+
+Respond only with the expended JSON template. No need for reasoning or fluff.
+"""

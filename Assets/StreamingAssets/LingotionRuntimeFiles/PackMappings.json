@@ -1,0 +1,75 @@
+{
+  "actorpacks": {
+    "lingotion-actorpack-sentis-v1_0_0-denel-gb-us-high-ae5d27e3": {
+      "denel-gb-us-high": {
+        "module-b29fd6d748df29d8f67087d4ceb1ec81-6e618052e5f4d47d63d03d6e608dfc3a-2948f8991e777c5a42df283efa0947e5": "lingotion-languagepack-sentis-v1_0_0-eng0001-5ff7ad44"
+      },
+      "actors": [
+        "denel.honeyball"
+      ]
+    },
+    "lingotion-actorpack-sentis-v1_0_0-elias-swe-eng-high-d2d6612a": {
+      "elias-swe-eng-high": {
+        "module-b29fd6d748df29d8f67087d4ceb1ec81-6e618052e5f4d47d63d03d6e608dfc3a-2948f8991e777c5a42df283efa0947e5": "lingotion-languagepack-sentis-v1_0_0-eng0001-5ff7ad44",
+        "module-ea951457bec8394549623df8370b638c-1a4e7692e300e54dc97416cd4cdae666-4bb71d66d972730278a913560bafa6c9": "lingotion-languagepack-sentis-v1_0_0-swe0001-f6229bc9"
+      },
+      "actors": [
+        "EliasGranhammar"
+      ]
+    }
+  },
+  "tagOverview": {
+    "lingotion-actorpack-sentis-v1_0_0-denel-gb-us-high-ae5d27e3": {
+      "denel-gb-us-high": {
+        "tags": {
+          "quality": "high"
+        },
+        "actors": [
+          "denel.honeyball"
+        ]
+      },
+      "actors": [
+        "denel.honeyball"
+      ]
+    },
+    "lingotion-actorpack-sentis-v1_0_0-elias-swe-eng-high-d2d6612a": {
+      "elias-swe-eng-high": {
+        "tags": {
+          "quality": "high"
+        },
+        "actors": [
+          "EliasGranhammar"
+        ]
+      },
+      "actors": [
+        "EliasGranhammar"
+      ]
+    }
+  },
+  "tagMapping": {
+    "denel-gb-us-high": {
+      "tags": {
+        "quality": "high"
+      },
+      "actors": [
+        "denel.honeyball"
+      ]
+    },
+    "elias-swe-eng-high": {
+      "tags": {
+        "quality": "high"
+      },
+      "actors": [
+        "EliasGranhammar"
+      ]
+    }
+  },
+  "languagepacks": {
+    "lingotion-languagepack-sentis-v1_0_0-eng0001-5ff7ad44": [
+      "module-b29fd6d748df29d8f67087d4ceb1ec81-6e618052e5f4d47d63d03d6e608dfc3a-2948f8991e777c5a42df283efa0947e5"
+    ],
+    "lingotion-languagepack-sentis-v1_0_0-swe0001-f6229bc9": [
+      "module-ea951457bec8394549623df8370b638c-1a4e7692e300e54dc97416cd4cdae666-4bb71d66d972730278a913560bafa6c9"
+    ]
+  }
+}

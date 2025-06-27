@@ -1,0 +1,2331 @@
+{
+  "build_info": {
+    "source_base_name": "lingotion-actorpack-base-v1_0_0-elias-swe-eng-high-ca147121"
+  },
+  "type": "ACTORPACK",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "platform": "sentis",
+  "modules": [
+    {
+      "type": "TTSV2",
+      "name": "elias-swe-eng-high",
+      "tags": {
+        "quality": "high"
+      },
+      "model_options": {
+        "version": {
+          "major": 1,
+          "minor": 0,
+          "patch": 0
+        },
+        "recording_data_info": {
+          "actors": {
+            "1": {
+              "actor": {
+                "actoruserkey": 8,
+                "username": "EliasGranhammar",
+                "firstname": "Elias",
+                "lastname": "Granhammar",
+                "actorkey": 1
+              },
+              "languages": {
+                "2": {
+                  "language": {
+                    "iso639_2": "swe",
+                    "iso639_3": null,
+                    "glottocode": null,
+                    "customdialect": null,
+                    "iso3166_1": "SE",
+                    "iso3166_2": "SE-Y",
+                    "languagecode": {
+                      "languagecodekey": 1184,
+                      "iso639_1": "sv",
+                      "iso639_2": "swe",
+                      "nameinenglish": "Swedish",
+                      "autonym": "svenska"
+                    },
+                    "countrycode": {
+                      "iso3166_1": "SE",
+                      "name": "Sweden"
+                    },
+                    "subregioncode": {
+                      "iso3166_2": "SE-Y",
+                      "iso3166_1": "SE",
+                      "name": "Västernorrland County"
+                    },
+                    "languagekey": 2
+                  },
+                  "emotions": {
+                    "32": {
+                      "emotion": {
+                        "emotionsetkey": 32,
+                        "emotionsetname": "Optimism"
+                      },
+                      "quality": "high"
+                    },
+                    "31": {
+                      "emotion": {
+                        "emotionsetkey": 31,
+                        "emotionsetname": "Love"
+                      },
+                      "quality": "high"
+                    },
+                    "30": {
+                      "emotion": {
+                        "emotionsetkey": 30,
+                        "emotionsetname": "Submission"
+                      },
+                      "quality": "high"
+                    },
+                    "29": {
+                      "emotion": {
+                        "emotionsetkey": 29,
+                        "emotionsetname": "Awe"
+                      },
+                      "quality": "high"
+                    },
+                    "28": {
+                      "emotion": {
+                        "emotionsetkey": 28,
+                        "emotionsetname": "Disapproval"
+                      },
+                      "quality": "high"
+                    },
+                    "27": {
+                      "emotion": {
+                        "emotionsetkey": 27,
+                        "emotionsetname": "Remorse"
+                      },
+                      "quality": "high"
+                    },
+                    "26": {
+                      "emotion": {
+                        "emotionsetkey": 26,
+                        "emotionsetname": "Contempt"
+                      },
+                      "quality": "high"
+                    },
+                    "33": {
+                      "emotion": {
+                        "emotionsetkey": 33,
+                        "emotionsetname": "Aggressiveness"
+                      },
+                      "quality": "high"
+                    },
+                    "18": {
+                      "emotion": {
+                        "emotionsetkey": 18,
+                        "emotionsetname": "Acceptance"
+                      },
+                      "quality": "high"
+                    },
+                    "10": {
+                      "emotion": {
+                        "emotionsetkey": 10,
+                        "emotionsetname": "Trust"
+                      },
+                      "quality": "high"
+                    },
+                    "2": {
+                      "emotion": {
+                        "emotionsetkey": 2,
+                        "emotionsetname": "Admiration"
+                      },
+                      "quality": "high"
+                    },
+                    "9": {
+                      "emotion": {
+                        "emotionsetkey": 9,
+                        "emotionsetname": "Joy"
+                      },
+                      "quality": "high"
+                    },
+                    "15": {
+                      "emotion": {
+                        "emotionsetkey": 15,
+                        "emotionsetname": "Anger"
+                      },
+                      "quality": "high"
+                    },
+                    "24": {
+                      "emotion": {
+                        "emotionsetkey": 24,
+                        "emotionsetname": "Interest"
+                      },
+                      "quality": "high"
+                    },
+                    "17": {
+                      "emotion": {
+                        "emotionsetkey": 17,
+                        "emotionsetname": "Serenity"
+                      },
+                      "quality": "high"
+                    },
+                    "23": {
+                      "emotion": {
+                        "emotionsetkey": 23,
+                        "emotionsetname": "Annoyance"
+                      },
+                      "quality": "high"
+                    },
+                    "25": {
+                      "emotion": {
+                        "emotionsetkey": 25,
+                        "emotionsetname": "Emotionless"
+                      },
+                      "quality": "high"
+                    },
+                    "20": {
+                      "emotion": {
+                        "emotionsetkey": 20,
+                        "emotionsetname": "Distraction"
+                      },
+                      "quality": "high"
+                    },
+                    "13": {
+                      "emotion": {
+                        "emotionsetkey": 13,
+                        "emotionsetname": "Sadness"
+                      },
+                      "quality": "high"
+                    },
+                    "5": {
+                      "emotion": {
+                        "emotionsetkey": 5,
+                        "emotionsetname": "Grief"
+                      },
+                      "quality": "high"
+                    },
+                    "1": {
+                      "emotion": {
+                        "emotionsetkey": 1,
+                        "emotionsetname": "Ecstasy"
+                      },
+                      "quality": "high"
+                    },
+                    "8": {
+                      "emotion": {
+                        "emotionsetkey": 8,
+                        "emotionsetname": "Vigilance"
+                      },
+                      "quality": "high"
+                    },
+                    "16": {
+                      "emotion": {
+                        "emotionsetkey": 16,
+                        "emotionsetname": "Anticipation"
+                      },
+                      "quality": "high"
+                    },
+                    "11": {
+                      "emotion": {
+                        "emotionsetkey": 11,
+                        "emotionsetname": "Fear"
+                      },
+                      "quality": "high"
+                    },
+                    "3": {
+                      "emotion": {
+                        "emotionsetkey": 3,
+                        "emotionsetname": "Terror"
+                      },
+                      "quality": "high"
+                    },
+                    "19": {
+                      "emotion": {
+                        "emotionsetkey": 19,
+                        "emotionsetname": "Apprehension"
+                      },
+                      "quality": "high"
+                    },
+                    "22": {
+                      "emotion": {
+                        "emotionsetkey": 22,
+                        "emotionsetname": "Boredom"
+                      },
+                      "quality": "high"
+                    },
+                    "4": {
+                      "emotion": {
+                        "emotionsetkey": 4,
+                        "emotionsetname": "Amazement"
+                      },
+                      "quality": "high"
+                    },
+                    "21": {
+                      "emotion": {
+                        "emotionsetkey": 21,
+                        "emotionsetname": "Pensiveness"
+                      },
+                      "quality": "high"
+                    },
+                    "12": {
+                      "emotion": {
+                        "emotionsetkey": 12,
+                        "emotionsetname": "Surprise"
+                      },
+                      "quality": "high"
+                    },
+                    "7": {
+                      "emotion": {
+                        "emotionsetkey": 7,
+                        "emotionsetname": "Rage"
+                      },
+                      "quality": "high"
+                    },
+                    "6": {
+                      "emotion": {
+                        "emotionsetkey": 6,
+                        "emotionsetname": "Loathing"
+                      },
+                      "quality": "high"
+                    },
+                    "14": {
+                      "emotion": {
+                        "emotionsetkey": 14,
+                        "emotionsetname": "Disgust"
+                      },
+                      "quality": "high"
+                    }
+                  },
+                  "quality": "high"
+                },
+                "1": {
+                  "language": {
+                    "iso639_2": "eng",
+                    "iso639_3": null,
+                    "glottocode": null,
+                    "customdialect": null,
+                    "iso3166_1": "SE",
+                    "iso3166_2": "SE-Y",
+                    "languagecode": {
+                      "languagecodekey": 1301,
+                      "iso639_1": "en",
+                      "iso639_2": "eng",
+                      "nameinenglish": "English",
+                      "autonym": "English"
+                    },
+                    "countrycode": {
+                      "iso3166_1": "SE",
+                      "name": "Sweden"
+                    },
+                    "subregioncode": {
+                      "iso3166_2": "SE-Y",
+                      "iso3166_1": "SE",
+                      "name": "Västernorrland County"
+                    },
+                    "languagekey": 1
+                  },
+                  "emotions": {
+                    "25": {
+                      "emotion": {
+                        "emotionsetkey": 25,
+                        "emotionsetname": "Emotionless"
+                      },
+                      "quality": "high"
+                    },
+                    "24": {
+                      "emotion": {
+                        "emotionsetkey": 24,
+                        "emotionsetname": "Interest"
+                      },
+                      "quality": "high"
+                    },
+                    "16": {
+                      "emotion": {
+                        "emotionsetkey": 16,
+                        "emotionsetname": "Anticipation"
+                      },
+                      "quality": "high"
+                    },
+                    "8": {
+                      "emotion": {
+                        "emotionsetkey": 8,
+                        "emotionsetname": "Vigilance"
+                      },
+                      "quality": "high"
+                    },
+                    "32": {
+                      "emotion": {
+                        "emotionsetkey": 32,
+                        "emotionsetname": "Optimism"
+                      },
+                      "quality": "high"
+                    },
+                    "17": {
+                      "emotion": {
+                        "emotionsetkey": 17,
+                        "emotionsetname": "Serenity"
+                      },
+                      "quality": "high"
+                    },
+                    "9": {
+                      "emotion": {
+                        "emotionsetkey": 9,
+                        "emotionsetname": "Joy"
+                      },
+                      "quality": "high"
+                    },
+                    "1": {
+                      "emotion": {
+                        "emotionsetkey": 1,
+                        "emotionsetname": "Ecstasy"
+                      },
+                      "quality": "high"
+                    },
+                    "31": {
+                      "emotion": {
+                        "emotionsetkey": 31,
+                        "emotionsetname": "Love"
+                      },
+                      "quality": "high"
+                    },
+                    "18": {
+                      "emotion": {
+                        "emotionsetkey": 18,
+                        "emotionsetname": "Acceptance"
+                      },
+                      "quality": "high"
+                    },
+                    "10": {
+                      "emotion": {
+                        "emotionsetkey": 10,
+                        "emotionsetname": "Trust"
+                      },
+                      "quality": "high"
+                    },
+                    "2": {
+                      "emotion": {
+                        "emotionsetkey": 2,
+                        "emotionsetname": "Admiration"
+                      },
+                      "quality": "high"
+                    },
+                    "30": {
+                      "emotion": {
+                        "emotionsetkey": 30,
+                        "emotionsetname": "Submission"
+                      },
+                      "quality": "high"
+                    },
+                    "19": {
+                      "emotion": {
+                        "emotionsetkey": 19,
+                        "emotionsetname": "Apprehension"
+                      },
+                      "quality": "high"
+                    },
+                    "11": {
+                      "emotion": {
+                        "emotionsetkey": 11,
+                        "emotionsetname": "Fear"
+                      },
+                      "quality": "high"
+                    },
+                    "3": {
+                      "emotion": {
+                        "emotionsetkey": 3,
+                        "emotionsetname": "Terror"
+                      },
+                      "quality": "high"
+                    },
+                    "29": {
+                      "emotion": {
+                        "emotionsetkey": 29,
+                        "emotionsetname": "Awe"
+                      },
+                      "quality": "high"
+                    },
+                    "20": {
+                      "emotion": {
+                        "emotionsetkey": 20,
+                        "emotionsetname": "Distraction"
+                      },
+                      "quality": "high"
+                    },
+                    "12": {
+                      "emotion": {
+                        "emotionsetkey": 12,
+                        "emotionsetname": "Surprise"
+                      },
+                      "quality": "high"
+                    },
+                    "4": {
+                      "emotion": {
+                        "emotionsetkey": 4,
+                        "emotionsetname": "Amazement"
+                      },
+                      "quality": "high"
+                    },
+                    "28": {
+                      "emotion": {
+                        "emotionsetkey": 28,
+                        "emotionsetname": "Disapproval"
+                      },
+                      "quality": "high"
+                    },
+                    "21": {
+                      "emotion": {
+                        "emotionsetkey": 21,
+                        "emotionsetname": "Pensiveness"
+                      },
+                      "quality": "high"
+                    },
+                    "13": {
+                      "emotion": {
+                        "emotionsetkey": 13,
+                        "emotionsetname": "Sadness"
+                      },
+                      "quality": "high"
+                    },
+                    "5": {
+                      "emotion": {
+                        "emotionsetkey": 5,
+                        "emotionsetname": "Grief"
+                      },
+                      "quality": "high"
+                    },
+                    "27": {
+                      "emotion": {
+                        "emotionsetkey": 27,
+                        "emotionsetname": "Remorse"
+                      },
+                      "quality": "high"
+                    },
+                    "22": {
+                      "emotion": {
+                        "emotionsetkey": 22,
+                        "emotionsetname": "Boredom"
+                      },
+                      "quality": "high"
+                    },
+                    "14": {
+                      "emotion": {
+                        "emotionsetkey": 14,
+                        "emotionsetname": "Disgust"
+                      },
+                      "quality": "high"
+                    },
+                    "6": {
+                      "emotion": {
+                        "emotionsetkey": 6,
+                        "emotionsetname": "Loathing"
+                      },
+                      "quality": "high"
+                    },
+                    "26": {
+                      "emotion": {
+                        "emotionsetkey": 26,
+                        "emotionsetname": "Contempt"
+                      },
+                      "quality": "high"
+                    },
+                    "23": {
+                      "emotion": {
+                        "emotionsetkey": 23,
+                        "emotionsetname": "Annoyance"
+                      },
+                      "quality": "high"
+                    },
+                    "33": {
+                      "emotion": {
+                        "emotionsetkey": 33,
+                        "emotionsetname": "Aggressiveness"
+                      },
+                      "quality": "high"
+                    },
+                    "15": {
+                      "emotion": {
+                        "emotionsetkey": 15,
+                        "emotionsetname": "Anger"
+                      },
+                      "quality": "high"
+                    },
+                    "7": {
+                      "emotion": {
+                        "emotionsetkey": 7,
+                        "emotionsetname": "Rage"
+                      },
+                      "quality": "high"
+                    }
+                  },
+                  "quality": "high"
+                }
+              }
+            }
+          }
+        }
+      },
+      "actor_options": {
+        "version": {
+          "major": 1,
+          "minor": 0,
+          "patch": 0
+        },
+        "actors": [
+          {
+            "actoruserkey": 8,
+            "username": "EliasGranhammar",
+            "firstname": "Elias",
+            "lastname": "Granhammar",
+            "actorkey": 1
+          }
+        ],
+        "actors_size": 2
+      },
+      "language_options": {
+        "version": {
+          "major": 1,
+          "minor": 0,
+          "patch": 0
+        },
+        "languages": [
+          {
+            "iso639_2": "eng",
+            "iso639_3": null,
+            "glottocode": null,
+            "customdialect": null,
+            "iso3166_1": "SE",
+            "iso3166_2": "SE-Y",
+            "languagecode": {
+              "languagecodekey": 1301,
+              "iso639_1": "en",
+              "iso639_2": "eng",
+              "nameinenglish": "English",
+              "autonym": "English"
+            },
+            "countrycode": {
+              "iso3166_1": "SE",
+              "name": "Sweden"
+            },
+            "subregioncode": {
+              "iso3166_2": "SE-Y",
+              "iso3166_1": "SE",
+              "name": "Västernorrland County"
+            },
+            "languagekey": 1
+          },
+          {
+            "iso639_2": "swe",
+            "iso639_3": null,
+            "glottocode": null,
+            "customdialect": null,
+            "iso3166_1": "SE",
+            "iso3166_2": "SE-Y",
+            "languagecode": {
+              "languagecodekey": 1184,
+              "iso639_1": "sv",
+              "iso639_2": "swe",
+              "nameinenglish": "Swedish",
+              "autonym": "svenska"
+            },
+            "countrycode": {
+              "iso3166_1": "SE",
+              "name": "Sweden"
+            },
+            "subregioncode": {
+              "iso3166_2": "SE-Y",
+              "iso3166_1": "SE",
+              "name": "Västernorrland County"
+            },
+            "languagekey": 2
+          }
+        ],
+        "languages_size": 3
+      },
+      "emotion_options": {
+        "version": {
+          "major": 1,
+          "minor": 0,
+          "patch": 0
+        },
+        "emotions": [
+          {
+            "emotionsetkey": 1,
+            "emotionsetname": "Ecstasy"
+          },
+          {
+            "emotionsetkey": 2,
+            "emotionsetname": "Admiration"
+          },
+          {
+            "emotionsetkey": 3,
+            "emotionsetname": "Terror"
+          },
+          {
+            "emotionsetkey": 4,
+            "emotionsetname": "Amazement"
+          },
+          {
+            "emotionsetkey": 5,
+            "emotionsetname": "Grief"
+          },
+          {
+            "emotionsetkey": 6,
+            "emotionsetname": "Loathing"
+          },
+          {
+            "emotionsetkey": 7,
+            "emotionsetname": "Rage"
+          },
+          {
+            "emotionsetkey": 8,
+            "emotionsetname": "Vigilance"
+          },
+          {
+            "emotionsetkey": 9,
+            "emotionsetname": "Joy"
+          },
+          {
+            "emotionsetkey": 10,
+            "emotionsetname": "Trust"
+          },
+          {
+            "emotionsetkey": 11,
+            "emotionsetname": "Fear"
+          },
+          {
+            "emotionsetkey": 12,
+            "emotionsetname": "Surprise"
+          },
+          {
+            "emotionsetkey": 13,
+            "emotionsetname": "Sadness"
+          },
+          {
+            "emotionsetkey": 14,
+            "emotionsetname": "Disgust"
+          },
+          {
+            "emotionsetkey": 15,
+            "emotionsetname": "Anger"
+          },
+          {
+            "emotionsetkey": 16,
+            "emotionsetname": "Anticipation"
+          },
+          {
+            "emotionsetkey": 17,
+            "emotionsetname": "Serenity"
+          },
+          {
+            "emotionsetkey": 18,
+            "emotionsetname": "Acceptance"
+          },
+          {
+            "emotionsetkey": 19,
+            "emotionsetname": "Apprehension"
+          },
+          {
+            "emotionsetkey": 20,
+            "emotionsetname": "Distraction"
+          },
+          {
+            "emotionsetkey": 21,
+            "emotionsetname": "Pensiveness"
+          },
+          {
+            "emotionsetkey": 22,
+            "emotionsetname": "Boredom"
+          },
+          {
+            "emotionsetkey": 23,
+            "emotionsetname": "Annoyance"
+          },
+          {
+            "emotionsetkey": 24,
+            "emotionsetname": "Interest"
+          },
+          {
+            "emotionsetkey": 25,
+            "emotionsetname": "Emotionless"
+          },
+          {
+            "emotionsetkey": 26,
+            "emotionsetname": "Contempt"
+          },
+          {
+            "emotionsetkey": 27,
+            "emotionsetname": "Remorse"
+          },
+          {
+            "emotionsetkey": 28,
+            "emotionsetname": "Disapproval"
+          },
+          {
+            "emotionsetkey": 29,
+            "emotionsetname": "Awe"
+          },
+          {
+            "emotionsetkey": 30,
+            "emotionsetname": "Submission"
+          },
+          {
+            "emotionsetkey": 31,
+            "emotionsetname": "Love"
+          },
+          {
+            "emotionsetkey": 32,
+            "emotionsetname": "Optimism"
+          },
+          {
+            "emotionsetkey": 33,
+            "emotionsetname": "Aggressiveness"
+          }
+        ],
+        "emotions_size": 34
+      },
+      "phonemes_table": {
+        "symbol_to_id": {
+          "a": 1,
+          "b": 2,
+          "c": 3,
+          "d": 4,
+          "e": 5,
+          "f": 6,
+          "h": 7,
+          "i": 8,
+          "j": 9,
+          "k": 10,
+          "l": 11,
+          "m": 12,
+          "n": 14,
+          "o": 15,
+          "p": 16,
+          "q": 17,
+          "r": 18,
+          "s": 19,
+          "t": 20,
+          "u": 21,
+          "v": 22,
+          "w": 23,
+          "x": 24,
+          "y": 25,
+          "z": 26,
+          "æ": 27,
+          "ç": 28,
+          "ð": 29,
+          "ø": 30,
+          "ħ": 31,
+          "ŋ": 32,
+          "œ": 33,
+          "ǀ": 34,
+          "ǁ": 35,
+          "ǂ": 36,
+          "ǃ": 37,
+          "ɐ": 38,
+          "ɑ": 39,
+          "ɒ": 40,
+          "ɓ": 41,
+          "ɔ": 42,
+          "ɕ": 43,
+          "ɖ": 44,
+          "ɗ": 45,
+          "ɘ": 46,
+          "ə": 47,
+          "ɚ": 48,
+          "ɛ": 49,
+          "ɜ": 50,
+          "ɞ": 51,
+          "ɟ": 52,
+          "ɠ": 53,
+          "ɡ": 54,
+          "ɢ": 55,
+          "ɣ": 56,
+          "ɤ": 57,
+          "ɥ": 58,
+          "ɦ": 59,
+          "ɧ": 60,
+          "ɨ": 61,
+          "ɪ": 62,
+          "ɫ": 63,
+          "ɬ": 64,
+          "ɭ": 65,
+          "ɮ": 66,
+          "ɯ": 67,
+          "ɰ": 68,
+          "ɱ": 69,
+          "ɲ": 70,
+          "ɳ": 71,
+          "ɴ": 72,
+          "ɵ": 73,
+          "ɶ": 74,
+          "ɸ": 75,
+          "ɹ": 76,
+          "ɺ": 77,
+          "ɻ": 78,
+          "ɽ": 79,
+          "ɾ": 80,
+          "ʀ": 81,
+          "ʁ": 82,
+          "ʂ": 83,
+          "ʃ": 84,
+          "ʄ": 85,
+          "ʈ": 86,
+          "ʉ": 87,
+          "ʊ": 88,
+          "ʋ": 89,
+          "ʌ": 90,
+          "ʍ": 91,
+          "ʎ": 92,
+          "ʏ": 93,
+          "ʐ": 94,
+          "ʑ": 95,
+          "ʒ": 96,
+          "ʔ": 97,
+          "ʕ": 98,
+          "ʘ": 99,
+          "ʙ": 100,
+          "ʛ": 101,
+          "ʜ": 102,
+          "ʝ": 103,
+          "ʟ": 104,
+          "ʡ": 105,
+          "ʢ": 106,
+          "ˈ": 107,
+          "ˌ": 108,
+          "ː": 109,
+          "ˑ": 110,
+          "˞": 111,
+          "̃": 112,
+          "̩": 113,
+          "β": 114,
+          "θ": 115,
+          "χ": 116,
+          "ᵻ": 117,
+          "◌": 118,
+          "ⱱ": 119,
+          " ": 120,
+          "!": 121,
+          "'": 122,
+          "(": 123,
+          ")": 124,
+          ",": 125,
+          ".": 126,
+          ":": 127,
+          ";": 128,
+          "?": 129,
+          "…": 130,
+          "⏸": 131,
+          "_": 132,
+          "’": 133,
+          "&": 134,
+          "‘": 135,
+          "🜁": 136,
+          "⏩": 137,
+          "⏪": 138
+        },
+        "id_to_symbol": {
+          "1": "a",
+          "2": "b",
+          "3": "c",
+          "4": "d",
+          "5": "e",
+          "6": "f",
+          "7": "h",
+          "8": "i",
+          "9": "j",
+          "10": "k",
+          "11": "l",
+          "12": "m",
+          "13": "n",
+          "14": "n",
+          "15": "o",
+          "16": "p",
+          "17": "q",
+          "18": "r",
+          "19": "s",
+          "20": "t",
+          "21": "u",
+          "22": "v",
+          "23": "w",
+          "24": "x",
+          "25": "y",
+          "26": "z",
+          "27": "æ",
+          "28": "ç",
+          "29": "ð",
+          "30": "ø",
+          "31": "ħ",
+          "32": "ŋ",
+          "33": "œ",
+          "34": "ǀ",
+          "35": "ǁ",
+          "36": "ǂ",
+          "37": "ǃ",
+          "38": "ɐ",
+          "39": "ɑ",
+          "40": "ɒ",
+          "41": "ɓ",
+          "42": "ɔ",
+          "43": "ɕ",
+          "44": "ɖ",
+          "45": "ɗ",
+          "46": "ɘ",
+          "47": "ə",
+          "48": "ɚ",
+          "49": "ɛ",
+          "50": "ɜ",
+          "51": "ɞ",
+          "52": "ɟ",
+          "53": "ɠ",
+          "54": "ɡ",
+          "55": "ɢ",
+          "56": "ɣ",
+          "57": "ɤ",
+          "58": "ɥ",
+          "59": "ɦ",
+          "60": "ɧ",
+          "61": "ɨ",
+          "62": "ɪ",
+          "63": "ɫ",
+          "64": "ɬ",
+          "65": "ɭ",
+          "66": "ɮ",
+          "67": "ɯ",
+          "68": "ɰ",
+          "69": "ɱ",
+          "70": "ɲ",
+          "71": "ɳ",
+          "72": "ɴ",
+          "73": "ɵ",
+          "74": "ɶ",
+          "75": "ɸ",
+          "76": "ɹ",
+          "77": "ɺ",
+          "78": "ɻ",
+          "79": "ɽ",
+          "80": "ɾ",
+          "81": "ʀ",
+          "82": "ʁ",
+          "83": "ʂ",
+          "84": "ʃ",
+          "85": "ʄ",
+          "86": "ʈ",
+          "87": "ʉ",
+          "88": "ʊ",
+          "89": "ʋ",
+          "90": "ʌ",
+          "91": "ʍ",
+          "92": "ʎ",
+          "93": "ʏ",
+          "94": "ʐ",
+          "95": "ʑ",
+          "96": "ʒ",
+          "97": "ʔ",
+          "98": "ʕ",
+          "99": "ʘ",
+          "100": "ʙ",
+          "101": "ʛ",
+          "102": "ʜ",
+          "103": "ʝ",
+          "104": "ʟ",
+          "105": "ʡ",
+          "106": "ʢ",
+          "107": "ˈ",
+          "108": "ˌ",
+          "109": "ː",
+          "110": "ˑ",
+          "111": "˞",
+          "112": "̃",
+          "113": "̩",
+          "114": "β",
+          "115": "θ",
+          "116": "χ",
+          "117": "ᵻ",
+          "118": "◌",
+          "119": "ⱱ",
+          "120": " ",
+          "121": "!",
+          "122": "'",
+          "123": "(",
+          "124": ")",
+          "125": ",",
+          "126": ".",
+          "127": ":",
+          "128": ";",
+          "129": "?",
+          "130": "…",
+          "131": "⏸",
+          "132": "_",
+          "133": "’",
+          "134": "&",
+          "135": "‘",
+          "136": "🜁",
+          "137": "⏩",
+          "138": "⏪"
+        },
+        "word_splitters": [
+          {
+            "symbol": " ",
+            "id": 120
+          },
+          {
+            "symbol": "!",
+            "id": 121
+          },
+          {
+            "symbol": "'",
+            "id": 122
+          },
+          {
+            "symbol": "(",
+            "id": 123
+          },
+          {
+            "symbol": ")",
+            "id": 124
+          },
+          {
+            "symbol": ",",
+            "id": 125
+          },
+          {
+            "symbol": ".",
+            "id": 126
+          },
+          {
+            "symbol": ":",
+            "id": 127
+          },
+          {
+            "symbol": ";",
+            "id": 128
+          },
+          {
+            "symbol": "?",
+            "id": 129
+          },
+          {
+            "symbol": "…",
+            "id": 130
+          },
+          {
+            "symbol": "⏸",
+            "id": 131
+          }
+        ],
+        "vocab_size": 139
+      },
+      "phonemizer_setup": {
+        "modules": {
+          "module-b29fd6d748df29d8f67087d4ceb1ec81-6e618052e5f4d47d63d03d6e608dfc3a-2948f8991e777c5a42df283efa0947e5": {
+            "type": "TRANSFORMERPHONEMIZERANDLOOKUPTABLE",
+            "name": "eng20241213",
+            "module_id": "module-b29fd6d748df29d8f67087d4ceb1ec81-6e618052e5f4d47d63d03d6e608dfc3a-2948f8991e777c5a42df283efa0947e5",
+            "languages": [
+              {
+                "iso639_2": "eng",
+                "iso639_3": null,
+                "glottocode": null,
+                "iso3166_1": null,
+                "iso3166_2": null,
+                "customdialect": null
+              }
+            ],
+            "properties": {
+              "performance": "mid"
+            },
+            "vocabularies": {
+              "grapheme_vocab": {
+                "<pad>": 0,
+                "<sos>": 1,
+                "<eos>": 2,
+                "<unk>": 3,
+                "'": 4,
+                "-": 5,
+                ".": 6,
+                "0": 7,
+                "1": 8,
+                "2": 9,
+                "3": 10,
+                "4": 11,
+                "5": 12,
+                "6": 13,
+                "7": 14,
+                "8": 15,
+                "9": 16,
+                "_": 17,
+                "a": 18,
+                "b": 19,
+                "c": 20,
+                "d": 21,
+                "e": 22,
+                "f": 23,
+                "g": 24,
+                "h": 25,
+                "i": 26,
+                "j": 27,
+                "k": 28,
+                "l": 29,
+                "m": 30,
+                "n": 31,
+                "o": 32,
+                "p": 33,
+                "q": 34,
+                "r": 35,
+                "s": 36,
+                "t": 37,
+                "u": 38,
+                "v": 39,
+                "w": 40,
+                "x": 41,
+                "y": 42,
+                "z": 43,
+                "à": 44,
+                "é": 45
+              },
+              "phoneme_vocab": {
+                "<pad>": 0,
+                "<sos>": 1,
+                "<eos>": 2,
+                "<unk>": 3,
+                " ": 4,
+                "(": 5,
+                ")": 6,
+                "-": 7,
+                "a": 8,
+                "b": 9,
+                "d": 10,
+                "e": 11,
+                "f": 12,
+                "h": 13,
+                "i": 14,
+                "j": 15,
+                "k": 16,
+                "l": 17,
+                "m": 18,
+                "n": 19,
+                "o": 20,
+                "p": 21,
+                "r": 22,
+                "s": 23,
+                "t": 24,
+                "u": 25,
+                "v": 26,
+                "w": 27,
+                "x": 28,
+                "z": 29,
+                "æ": 30,
+                "ð": 31,
+                "ŋ": 32,
+                "ɐ": 33,
+                "ɑ": 34,
+                "ɔ": 35,
+                "ə": 36,
+                "ɚ": 37,
+                "ɛ": 38,
+                "ɜ": 39,
+                "ɡ": 40,
+                "ɣ": 41,
+                "ɪ": 42,
+                "ɫ": 43,
+                "ɬ": 44,
+                "ɹ": 45,
+                "ɾ": 46,
+                "ʃ": 47,
+                "ʊ": 48,
+                "ʌ": 49,
+                "ʒ": 50,
+                "ʔ": 51,
+                "ʲ": 52,
+                "ˈ": 53,
+                "ˌ": 54,
+                "ː": 55,
+                "̃": 56,
+                "̩": 57,
+                "θ": 58,
+                "ᵻ": 59
+              },
+              "grapheme_ivocab": {
+                "0": "<pad>",
+                "1": "<sos>",
+                "2": "<eos>",
+                "3": "<unk>",
+                "4": "'",
+                "5": "-",
+                "6": ".",
+                "7": "0",
+                "8": "1",
+                "9": "2",
+                "10": "3",
+                "11": "4",
+                "12": "5",
+                "13": "6",
+                "14": "7",
+                "15": "8",
+                "16": "9",
+                "17": "_",
+                "18": "a",
+                "19": "b",
+                "20": "c",
+                "21": "d",
+                "22": "e",
+                "23": "f",
+                "24": "g",
+                "25": "h",
+                "26": "i",
+                "27": "j",
+                "28": "k",
+                "29": "l",
+                "30": "m",
+                "31": "n",
+                "32": "o",
+                "33": "p",
+                "34": "q",
+                "35": "r",
+                "36": "s",
+                "37": "t",
+                "38": "u",
+                "39": "v",
+                "40": "w",
+                "41": "x",
+                "42": "y",
+                "43": "z",
+                "44": "à",
+                "45": "é"
+              },
+              "phoneme_ivocab": {
+                "0": "<pad>",
+                "1": "<sos>",
+                "2": "<eos>",
+                "3": "<unk>",
+                "4": " ",
+                "5": "(",
+                "6": ")",
+                "7": "-",
+                "8": "a",
+                "9": "b",
+                "10": "d",
+                "11": "e",
+                "12": "f",
+                "13": "h",
+                "14": "i",
+                "15": "j",
+                "16": "k",
+                "17": "l",
+                "18": "m",
+                "19": "n",
+                "20": "o",
+                "21": "p",
+                "22": "r",
+                "23": "s",
+                "24": "t",
+                "25": "u",
+                "26": "v",
+                "27": "w",
+                "28": "x",
+                "29": "z",
+                "30": "æ",
+                "31": "ð",
+                "32": "ŋ",
+                "33": "ɐ",
+                "34": "ɑ",
+                "35": "ɔ",
+                "36": "ə",
+                "37": "ɚ",
+                "38": "ɛ",
+                "39": "ɜ",
+                "40": "ɡ",
+                "41": "ɣ",
+                "42": "ɪ",
+                "43": "ɫ",
+                "44": "ɬ",
+                "45": "ɹ",
+                "46": "ɾ",
+                "47": "ʃ",
+                "48": "ʊ",
+                "49": "ʌ",
+                "50": "ʒ",
+                "51": "ʔ",
+                "52": "ʲ",
+                "53": "ˈ",
+                "54": "ˌ",
+                "55": "ː",
+                "56": "̃",
+                "57": "̩",
+                "58": "θ",
+                "59": "ᵻ"
+              }
+            },
+            "files": {
+              "phonemizer": "6e618052e5f4d47d63d03d6e608dfc3a",
+              "lookuptable": "2948f8991e777c5a42df283efa0947e5"
+            },
+            "languagepack": "lingotion-languagepack-base-v1_0_0-eng0001-71029099"
+          },
+          "module-ea951457bec8394549623df8370b638c-1a4e7692e300e54dc97416cd4cdae666-4bb71d66d972730278a913560bafa6c9": {
+            "type": "TRANSFORMERPHONEMIZERANDLOOKUPTABLE",
+            "name": "swe20241218",
+            "module_id": "module-ea951457bec8394549623df8370b638c-1a4e7692e300e54dc97416cd4cdae666-4bb71d66d972730278a913560bafa6c9",
+            "languages": [
+              {
+                "iso639_2": "swe",
+                "iso639_3": null,
+                "glottocode": null,
+                "iso3166_1": null,
+                "iso3166_2": null,
+                "customdialect": null
+              }
+            ],
+            "properties": {
+              "performance": "mid"
+            },
+            "vocabularies": {
+              "grapheme_vocab": {
+                "<pad>": 0,
+                "<sos>": 1,
+                "<eos>": 2,
+                "<unk>": 3,
+                "!": 4,
+                "#": 5,
+                "&": 6,
+                "(": 7,
+                ")": 8,
+                "-": 9,
+                ".": 10,
+                "/": 11,
+                "0": 12,
+                "1": 13,
+                "3": 14,
+                "7": 15,
+                "9": 16,
+                ":": 17,
+                ";": 18,
+                "a": 19,
+                "b": 20,
+                "c": 21,
+                "d": 22,
+                "e": 23,
+                "f": 24,
+                "g": 25,
+                "h": 26,
+                "i": 27,
+                "j": 28,
+                "k": 29,
+                "l": 30,
+                "m": 31,
+                "n": 32,
+                "o": 33,
+                "p": 34,
+                "q": 35,
+                "r": 36,
+                "s": 37,
+                "t": 38,
+                "u": 39,
+                "v": 40,
+                "w": 41,
+                "x": 42,
+                "y": 43,
+                "z": 44,
+                "à": 45,
+                "ä": 46,
+                "å": 47,
+                "è": 48,
+                "é": 49,
+                "ê": 50,
+                "ö": 51
+              },
+              "phoneme_vocab": {
+                "<pad>": 0,
+                "<sos>": 1,
+                "<eos>": 2,
+                "<unk>": 3,
+                " ": 4,
+                "(": 5,
+                ")": 6,
+                "a": 7,
+                "b": 8,
+                "d": 9,
+                "e": 10,
+                "f": 11,
+                "h": 12,
+                "i": 13,
+                "j": 14,
+                "k": 15,
+                "l": 16,
+                "m": 17,
+                "n": 18,
+                "o": 19,
+                "p": 20,
+                "r": 21,
+                "s": 22,
+                "t": 23,
+                "u": 24,
+                "v": 25,
+                "w": 26,
+                "x": 27,
+                "y": 28,
+                "z": 29,
+                "ø": 30,
+                "ŋ": 31,
+                "œ": 32,
+                "ɐ": 33,
+                "ɑ": 34,
+                "ɔ": 35,
+                "ɕ": 36,
+                "ə": 37,
+                "ɛ": 38,
+                "ɜ": 39,
+                "ɡ": 40,
+                "ɪ": 41,
+                "ɵ": 42,
+                "ɹ": 43,
+                "ʂ": 44,
+                "ʃ": 45,
+                "ʉ": 46,
+                "ʊ": 47,
+                "ʌ": 48,
+                "ʒ": 49,
+                "ˈ": 50,
+                "ˌ": 51,
+                "ː": 52
+              },
+              "grapheme_ivocab": {
+                "0": "<pad>",
+                "1": "<sos>",
+                "2": "<eos>",
+                "3": "<unk>",
+                "4": "!",
+                "5": "#",
+                "6": "&",
+                "7": "(",
+                "8": ")",
+                "9": "-",
+                "10": ".",
+                "11": "/",
+                "12": "0",
+                "13": "1",
+                "14": "3",
+                "15": "7",
+                "16": "9",
+                "17": ":",
+                "18": ";",
+                "19": "a",
+                "20": "b",
+                "21": "c",
+                "22": "d",
+                "23": "e",
+                "24": "f",
+                "25": "g",
+                "26": "h",
+                "27": "i",
+                "28": "j",
+                "29": "k",
+                "30": "l",
+                "31": "m",
+                "32": "n",
+                "33": "o",
+                "34": "p",
+                "35": "q",
+                "36": "r",
+                "37": "s",
+                "38": "t",
+                "39": "u",
+                "40": "v",
+                "41": "w",
+                "42": "x",
+                "43": "y",
+                "44": "z",
+                "45": "à",
+                "46": "ä",
+                "47": "å",
+                "48": "è",
+                "49": "é",
+                "50": "ê",
+                "51": "ö"
+              },
+              "phoneme_ivocab": {
+                "0": "<pad>",
+                "1": "<sos>",
+                "2": "<eos>",
+                "3": "<unk>",
+                "4": " ",
+                "5": "(",
+                "6": ")",
+                "7": "a",
+                "8": "b",
+                "9": "d",
+                "10": "e",
+                "11": "f",
+                "12": "h",
+                "13": "i",
+                "14": "j",
+                "15": "k",
+                "16": "l",
+                "17": "m",
+                "18": "n",
+                "19": "o",
+                "20": "p",
+                "21": "r",
+                "22": "s",
+                "23": "t",
+                "24": "u",
+                "25": "v",
+                "26": "w",
+                "27": "x",
+                "28": "y",
+                "29": "z",
+                "30": "ø",
+                "31": "ŋ",
+                "32": "œ",
+                "33": "ɐ",
+                "34": "ɑ",
+                "35": "ɔ",
+                "36": "ɕ",
+                "37": "ə",
+                "38": "ɛ",
+                "39": "ɜ",
+                "40": "ɡ",
+                "41": "ɪ",
+                "42": "ɵ",
+                "43": "ɹ",
+                "44": "ʂ",
+                "45": "ʃ",
+                "46": "ʉ",
+                "47": "ʊ",
+                "48": "ʌ",
+                "49": "ʒ",
+                "50": "ˈ",
+                "51": "ˌ",
+                "52": "ː"
+              }
+            },
+            "files": {
+              "phonemizer": "1a4e7692e300e54dc97416cd4cdae666",
+              "lookuptable": "4bb71d66d972730278a913560bafa6c9"
+            },
+            "languagepack": "lingotion-languagepack-base-v1_0_0-swe0001-e278b11d"
+          }
+        },
+        "languagepacks": {
+          "lingotion-languagepack-base-v1_0_0-eng0001-71029099": {
+            "name": "lingotion-languagepack-base-v1_0_0-eng0001-71029099",
+            "createtime": "2025-02-04T13:08:59.684862",
+            "filename": "lingotion-languagepack-base-v1_0_0-eng0001-71029099.zip"
+          },
+          "lingotion-languagepack-base-v1_0_0-swe0001-e278b11d": {
+            "name": "lingotion-languagepack-base-v1_0_0-swe0001-e278b11d",
+            "createtime": "2025-02-04T13:09:21.815627",
+            "filename": "lingotion-languagepack-base-v1_0_0-swe0001-e278b11d.zip"
+          }
+        }
+      },
+      "emotionsets": [
+        {
+          "emotionsetkey": "1",
+          "emotionsetname": "Ecstasy",
+          "emotionsetguide": "Similar words: Delighted, Giddy. Typical sensations: Abundance of energy. What is Ecstacy telling you: This is better than I imagined. Example: You are feeling happiness that you have only imagined in your wildest dreams. Things cannot be better than it is right now and life is perfect in this moment."
+        },
+        {
+          "emotionsetkey": "2",
+          "emotionsetname": "Admiration",
+          "emotionsetguide": "Similar words: Connected, Proud. Typical sensations: Glowing. What is Admiration telling you: I want to support the person or thing. Example: You are meeting your hero in life and you want to show how much you appreciate him or her. Nothing your hero says or does is bad because your hero is absolutely perfect."
+        },
+        {
+          "emotionsetkey": "3",
+          "emotionsetname": "Terror",
+          "emotionsetguide": "Similar words: Alarmed, Petrified. Typical sensations: Hard to breathe. What is Terror telling you: There is big danger. Example: You are so afraid you can hardly breathe. You fear for your own life or the life of your loved ones. Someone is hunting you and your heart is racing. You keep looking around and trying to find the person who is hunting you and cannot find the person, but you know person is close and can kill you any second now."
+        },
+        {
+          "emotionsetkey": "4",
+          "emotionsetname": "Amazement",
+          "emotionsetguide": "Similar words: Inspired, WOWed. Typical sensations: Heart stopping. What is Amazement telling you: Something is totally unexpected. Example: You are exploring an abondoned old building and entering a room filled with old antiques and big chest containing gold and jewlery. You recognize one of the items as a historical important object that was lost during a recent war."
+        },
+        {
+          "emotionsetkey": "5",
+          "emotionsetname": "Grief",
+          "emotionsetguide": "Similar words: Heartbroken, Distraught. Typical sensations: Hard to get up. What is Grief telling you: Love is lost. Example: You just found out that your child or close family member was killed in a traffic accident an hour ago."
+        },
+        {
+          "emotionsetkey": "6",
+          "emotionsetname": "Loathing",
+          "emotionsetguide": "Similar words: Disturbed, Horrified. Typical sensations: Bileous & vehement. What is Loathing telling you: Fundamental values are violated. Example: You meet a horrible person that take advantage of people in need, by taking their money in exchange for false promises and then dumps them in the middle of the desert so they die of thirst."
+        },
+        {
+          "emotionsetkey": "7",
+          "emotionsetname": "Rage",
+          "emotionsetguide": "Similar words: Overwhelmed, Furious. Typical sensations: Pounding heart, see red. What is Rage telling you: I am blocked from something vital. Example: Somebody has stolen your most valuable and prized possession. Not only have you lost your possession, but the thief claims in front of the police that he or she has always been the owner and the police believes the thief and thinks you are a liar."
+        },
+        {
+          "emotionsetkey": "8",
+          "emotionsetname": "Vigilance",
+          "emotionsetguide": "Similar words: Intense, Focused. Typical sensations: Highly focused. What is Vigilance telling you: Something big is coming. Example: Your small child has climed high up a tree and is currently climbing down on unsteady legs and the child has almost slipped out of the tree a few times. You stand below the tree ready to catch your child in case the child loses the grip and falls from the tree."
+        },
+        {
+          "emotionsetkey": "9",
+          "emotionsetname": "Joy",
+          "emotionsetguide": "Similar words: Excited, Pleased. Typical sensations: Sense of energy and possibility. What is Joy telling you: Life is going well. Example: You are happy. Nobody and no comment ever brings you down and you answer everbody happily and perky. There is like a lite a happy spring in your answer and they are often upbeat. You talk with a smile on you face and like the topic that you are discussing. You would honestly also like to hear more and discuss this topic further."
+        },
+        {
+          "emotionsetkey": "10",
+          "emotionsetname": "Trust",
+          "emotionsetguide": "Similar words: Accepting, Safe. Typical sensations: Warm. What is Joy telling you: This is safe. Example: You trust someone not to hurt you. That person will be loyal to you and not abuse your relationship or do something behind you back"
+        },
+        {
+          "emotionsetkey": "11",
+          "emotionsetname": "Fear",
+          "emotionsetguide": "Similar words: Stressed, Scared. Typical sensations: Agitated. What is Fear telling you: Something I care about is at risk. Example: You suddenly remember that tomorrow you will present something infront of a lot of people. You have totally forgotten to prepare for the presentation and you feel that you will make a fool out of yourself tomorrow during the presentation."
+        },
+        {
+          "emotionsetkey": "12",
+          "emotionsetname": "Surprise",
+          "emotionsetguide": "Similar words: Shocked, Unexpected. Typical sensations: Heart pounding. What is Surprise telling you: Something new happened. Example: You come home one day as any other day and when you enter the living room suddenly your friends and family jumps out and screams surprise because they have arranged a surprise birthday party for you."
+        },
+        {
+          "emotionsetkey": "13",
+          "emotionsetname": "Sadness",
+          "emotionsetguide": "Similar words: Bummed, Loss. Typical sensations: Heavy. What is Sadness telling you: Love is going away. Guide: You are feeling blue. Whatever anybody says you only see the negative side. Nothing is fun and everything is sooo much work and effort. It feels like there is hardly any reason go out of bed every morning. Nothing good will happen today."
+        },
+        {
+          "emotionsetkey": "14",
+          "emotionsetname": "Disgust",
+          "emotionsetguide": "Similar words: Distrust, Rejecting. Typical sensations: Bitter & unwanted. What is Disgust telling you: Wrong; rules are violated. Example: You are sitting in a restaurant when you see the person at the table next to you open a box, take out a cockroach and place it their own food. The person then starts screaming at the waiters that they will not to pay because there is a disgusting bug in the food."
+        },
+        {
+          "emotionsetkey": "15",
+          "emotionsetname": "Anger",
+          "emotionsetguide": "Similar words: Mad, Fierce. Typical sensations: Strong and heated. What is Anger telling you: Something is in the way. Example: You are currently shopping in the city and need to leave because you have an important meeting that you cannot miss. When you reach you car you see that somebody has double parked and blocked your car and thereby prevented you from leaving. Your anger rises as you realize that the idiot that has double parked has left their car and is nowhere in sight which means that you will miss your important meeting."
+        },
+        {
+          "emotionsetkey": "16",
+          "emotionsetname": "Anticipation",
+          "emotionsetguide": "Similar words: Curious, Considering. Typical sensations: Alert and exploring. What is Anticipation telling you: Change is happening. Example: You are waiting for something that you really want. Somebody has promised you something that you like and they will soon come and deliver it. You can hardly wait to get it. It is something you have been waiting for a long time and been daydreaming about."
+        },
+        {
+          "emotionsetkey": "17",
+          "emotionsetname": "Serenity",
+          "emotionsetguide": "Similar words: Calm, Peaceful. Typical sensations: Relaxed, open hearted. What is Serenity telling you: Something is happening that is essential, pure, or purposeful. Example: You are spending time with your loved ones and you feel no stress for the time, money or anything else. You feel that your are satisfied with life right now and everything is OK."
+        },
+        {
+          "emotionsetkey": "18",
+          "emotionsetname": "Acceptance",
+          "emotionsetguide": "Similar words: Open, Welcoming. Typical sensations: Peaceful. What is Acceptance telling you: We are in this together. Example: Your group of friends has invited a new person to the group. After talking to the new person you find that the person shares similar values and you believe that the person would fit well in your group."
+        },
+        {
+          "emotionsetkey": "19",
+          "emotionsetname": "Apprehension",
+          "emotionsetguide": "Similar words: Worried, Anxious. Typical sensations: Cannot relax. What is Apprehension telling you: There could be a problem. Example: During work you hear your boss or manager say a negative comment about something related to you or your work, then an hour later you are called into a non-scheduled meeting with your manager. While you are walking to the meeting you are worried what the meeting is about and how it could impact you negatively."
+        },
+        {
+          "emotionsetkey": "20",
+          "emotionsetname": "Distraction",
+          "emotionsetguide": "Similar words: Scattered, Uncertain. Typical sensations: Unfocused. What is Distraction telling you: I do not know what to prioritize. Example: You are bit confused. You cannot fully remember what somebody just asked you because you were thinking about something else at the time. You only hear part of what is being said and when you answer you are very uncertain if you are giving the right answer, but you are so focused on something else so you answer automatically without any deeper thought, meaning or feeling."
+        },
+        {
+          "emotionsetkey": "21",
+          "emotionsetname": "Pensiveness",
+          "emotionsetguide": "Similar words: Blue, Unhappy. Typical sensations: Slow & disconnected. What is Pensiveness telling you? Love is distant. Example: You feel like you only have bad luck and when somebody suggests doing different activities together you feel that all suggestions are boring. There is something wrong with each suggestion that takes all the fun out of it."
+        },
+        {
+          "emotionsetkey": "22",
+          "emotionsetname": "Boredom",
+          "emotionsetguide": "Similar words: Tired, Uninterested. Typical sensations: Drained, low energy. What is Boredom telling you: The potential for this situation is not being met. Example: You cannot think of anything fun to do right now. Everything you are able to do or allowed to do right now is trivial and gives you no meaning in life."
+        },
+        {
+          "emotionsetkey": "23",
+          "emotionsetname": "Annoyance",
+          "emotionsetguide": "Similar words: Frustrated, Prickly. Typical sensations: Slightly agitated. What is Annoyance telling you: Something is unresolved. Example: Someone keeps doing something that irritates you all the time and it interrupts your thoughts. Even when you ask them to stop they continue."
+        },
+        {
+          "emotionsetkey": "24",
+          "emotionsetname": "Interest",
+          "emotionsetguide": "Similar words: Open, Looking. Typical sensations: Mild sense of curiosity. What is Interest telling you: Something useful might come. Example: During a casual conversation where you are not paying attention so much, somebody suddenly states some news about one of your favourite tv-show, movie or game that you did not know. You immediately become focused on the news and starts asking detailed questions about the topic."
+        },
+        {
+          "emotionsetkey": "25",
+          "emotionsetname": "Emotionless",
+          "emotionsetguide": "Similar words: Detached, Unemotional, Apathetic. Typical sensations: No sensation or feeling at all. What is Emotionless telling you: This does not affect me in any way. Example: Two acedemic scholars have a discussion about a tiny little detail that you have no understanding of all and cannot see how it has any impact on anybodys life. The two scholars suddenly ask your opinion but you simple state emotionless that you have no opinion on the matter."
+        },
+        {
+          "emotionsetkey": "26",
+          "emotionsetname": "Contempt",
+          "emotionsetguide": "Similar words: Distaste, Disdain, Despisement, Scorn. Typical senstions: Angry and sad at the same time. Example: You are disgusted and angry at the person your are talking to right now. You really want him or her to leave and never enter your life again. If possible you avoid answering anything the person that disgusts you. When you answer it is with an slightly aggressive voice while looking down on the person and you just want this dicussion to end."
+        },
+        {
+          "emotionsetkey": "27",
+          "emotionsetname": "Remorse",
+          "emotionsetguide": "Similar words: Guilt, Regret, Shame. Typical senstions: Disgusted and sad at the same time. Example: You are disgusted by your own behaviour and it makes you sad that you acted that way. You wish that you had not done or said what you just did. You truly wish that you could go back in time and change what you did or stop your self from doing what you did that made you feel this way. You have for example deeply hurt somebodys feeling and it makes you feel like you are a bad person."
+        },
+        {
+          "emotionsetkey": "28",
+          "emotionsetname": "Disapproval",
+          "emotionsetguide": "Similar words: Dislike, Displeasure, Disfavour. Typical sensations: Sad and surprised at the same time. Example: Somebody says something that goes against your core values. You feel that you cannot support that comment or the person that made the statement. You wish either to change the person or stop interacting with the person."
+        },
+        {
+          "emotionsetkey": "29",
+          "emotionsetname": "Awe",
+          "emotionsetguide": "Similar words: Astonishment, Wonder. Typical sensations: Surprise and with a bit of fear of it being too vast at the same time. Example: You meet your hero and you are overwhelmed with how great that person is, but you are afraid to talk to your hero in case he or she should see you as a blabbering fool."
+        },
+        {
+          "emotionsetkey": "30",
+          "emotionsetname": "Submission",
+          "emotionsetguide": "Similar words: Obedience, Subordination, Compliance. Typical sensations: You fear doing wrong but at same time completely trust instructions from an authority. Example: An dominant or authorative person gives you instructions and you are afraid of not being able to fulfil the instructions or deliver properly according to the instructions. You never question the instructions since you belive in your heart that the dominant or authorative person is always right and you must be wrong if you have a different thought or idea."
+        },
+        {
+          "emotionsetkey": "31",
+          "emotionsetname": "Love",
+          "emotionsetguide": "Similar words: Cherish, Treasure. Typical sensations: Joy with an implicit trust at the same time. Example: You find somebody that you want to talk to and be with all the time. Everytime you are near that person you feel an inner joy and you want to be with that person so much that you seldom question the things he or she does."
+        },
+        {
+          "emotionsetkey": "32",
+          "emotionsetname": "Optimism",
+          "emotionsetguide": "Similar words: Sanguinity, Cheerfulness, Hopeful, Upbeat. Typical sensations: Joyful and anticipate further joy in the future. Example: What ever somebody says to you, you always see the bright side of the comment ignore any negative thoughts and think that all is going well. Your replies are always sunny and bright. Whatever you are trying to do it will work out for the best and you do not concern yourself with risks of something going wrong."
+        },
+        {
+          "emotionsetkey": "33",
+          "emotionsetname": "Aggressiveness",
+          "emotionsetguide": "Similar words: Pushy, Fierce, Self-assertive. Typical sensations: Driven by anger to a specific goal that you anticipate to reach. Example: When you meet a person with different views you try to crush their views using a strong and authorative voice and you refuse to yield to any counter arguments. You assume that you are absolute right and others who do not agree with you must be removed out of the way for you to reach your goal."
+        }
+      ],
+      "actorpack_base_module_id": "module-2207feddecefd75f35d61d0968148d17-dc2c244cc8ae96203c6de887e3ddd7cd-74642f53df2f8c8debec160afbc244ca",
+      "config": {
+        "sampling_rate": 44100,
+        "n_mel_channels": 96,
+        "decoder_chunk_length": 48,
+        "chunk_boundary_length_ratio": 3,
+        "upsample_rates": [
+          8,
+          8,
+          4,
+          2
+        ],
+        "upsample_kernel_sizes": [
+          32,
+          16,
+          8,
+          4
+        ],
+        "upsample_initial_channel": 256,
+        "resblock_kernel_sizes": [
+          3,
+          7,
+          11
+        ],
+        "resblock_dilation_sizes": [
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            1,
+            3,
+            5
+          ]
+        ],
+        "noise_scale": 6.0,
+        "pre_conv_kernel": 7,
+        "post_conv_kernel": 7
+      },
+      "sentisfiles": {
+        "encoder": "b1a2bb65fc06e2821636144a7d192a83",
+        "decoder_preprocess": "45e0e221d5342835b2ee92423f8cdcdc",
+        "decoder_chunked": "2eeaccd779f985e28a40252e99070dc0",
+        "decoder_postprocess": "aa2bbbf7c2a80d213d0bb3c8cdeb1f43",
+        "vocoder_ups_3_kernel_0_dilation_1_convs2": "15ba818ef74385bbee7cdb9f9bd448af",
+        "vocoder_ups_0_kernel_0_dilation_1_convs2": "2b8690953e507b0aa4da42046db78d16",
+        "vocoder_ups_3_kernel_1_dilation_2_convs2": "7f98a578d48914b38dabca6b77e65ac8",
+        "vocoder_ups_3_kernel_2_dilation_2_convs2": "29ee0fe7230219691640f69435039e52",
+        "vocoder_ups_1_kernel_1_dilation_1_convs2": "1af31432c6ee28872a66068cd7c2b63c",
+        "vocoder_ups_0_kernel_2_dilation_2_convs2": "00df4a21c772639d6dec02460fbadc64",
+        "vocoder_ups_2_kernel_0_dilation_2_convs2": "4d696e70efa9e10b43cb622190015bac",
+        "vocoder_ups_3_kernel_1_dilation_0_convs1": "e26b30bd26fe9a39609359dfead675c5",
+        "vocoder_ups_0_kernel_0_dilation_2_convs1": "53f12e3a68fc59d63dceb158d585b70e",
+        "vocoder_ups_1_kernel_0_dilation_1_convs2": "3cbc40815bf2dd20994be614cef4311c",
+        "vocoder_ups_2_kernel_1_dilation_1_convs1": "f0c80e428062905b00deb473211afb42",
+        "vocoder_ups_2_kernel_2_dilation_0_convs2": "3b777b122fd5bbe09d270794d2f17870",
+        "vocoder_ups_3_kernel_0_dilation_2_convs1": "d3c9116e7fc2989b64cc4aea4191d85a",
+        "vocoder_ups_1_kernel_2_dilation_1_convs1": "9d35de10e9f5e0abd80e601b0701ee05",
+        "vocoder_ups_0_kernel_1_dilation_0_convs1": "fd14a3355508c5710d636f5db038456e",
+        "vocoder_ups_3_kernel_0_dilation_1_convs1": "2775ba4953b1df4e0b7f290afdff2bf7",
+        "vocoder_ups_0_kernel_2_dilation_1_convs2": "344bb61fc4e3e8b67a26c3c3a8294abf",
+        "vocoder_ups_3_kernel_1_dilation_2_convs1": "20177a40bfb654ddea3054b60d755b8d",
+        "vocoder_ups_2_kernel_1_dilation_0_convs1": "3ee403fe13f031b4c75e8cdd9690f2fb",
+        "vocoder_upsampler_3": "8d48c1825a210ef8e29cbd9b2aeab2a7",
+        "vocoder_ups_0_kernel_0_dilation_0_convs1": "bfdbb8e526046ec7efa357b5e572a47b",
+        "vocoder_ups_3_kernel_2_dilation_0_convs2": "2b0ed623c9a96ac9907091b4024f57dd",
+        "vocoder_ups_1_kernel_0_dilation_2_convs1": "5b3a5219105759fcc85b78f05f97376d",
+        "vocoder_ups_1_kernel_0_dilation_0_convs1": "0f494d6cf273c9477adfed0d344b2029",
+        "vocoder_ups_2_kernel_0_dilation_0_convs1": "19c78170edac5a392277b0c53f554f21",
+        "vocoder_ups_0_kernel_2_dilation_1_convs1": "b8d7f98e5a975da0b6b2f1f25babb8ae",
+        "vocoder_ups_2_kernel_1_dilation_2_convs2": "c30505da2476c2638b7d8ad3c03192e9",
+        "vocoder_ups_0_kernel_0_dilation_0_convs2": "dae48f094671f1f6a548d5afc03c2492",
+        "vocoder_ups_0_kernel_0_dilation_1_convs1": "3db6d34edf6cbebd3e41bbd54df63cb1",
+        "vocoder_ups_3_kernel_2_dilation_0_convs1": "10399e099f9cda940bbe983c6793376a",
+        "vocoder_ups_3_kernel_1_dilation_1_convs1": "1ee56a0952d4130dd206afb1b881d409",
+        "vocoder_ups_1_kernel_2_dilation_2_convs1": "102ec6aaa7c1ac18664349c91ee8225f",
+        "vocoder_ups_1_kernel_1_dilation_0_convs2": "4c22c3513af3b093a2b170be4892df28",
+        "vocoder_ups_3_kernel_0_dilation_2_convs2": "550fe2c9dbb4220e3bab6e4caa4af07a",
+        "vocoder_upsampler_2": "86126c8b3e0d26f40e3d4e6a8f5f3ec1",
+        "vocoder_upsampler_0": "240f1da2f7561c7bb97203cb10c742dc",
+        "vocoder_ups_1_kernel_2_dilation_0_convs2": "6f577f42f3426638d3d19e69335af2dc",
+        "vocoder_ups_0_kernel_2_dilation_0_convs1": "715dbc37b3ffcd3d78d4ccc67efc66be",
+        "vocoder_ups_1_kernel_1_dilation_2_convs1": "2356ce417c5d4d334aba5c282a9646b4",
+        "vocoder_ups_2_kernel_2_dilation_2_convs1": "5d70cbd66994a4535624b073269ef507",
+        "vocoder_ups_2_kernel_1_dilation_0_convs2": "21ea087b2e6a90595a28d22aadd7d5e2",
+        "vocoder_ups_2_kernel_0_dilation_1_convs1": "3773750141f812a1df80f0397bb70d6b",
+        "vocoder_ups_0_kernel_2_dilation_0_convs2": "fcf3d88d81eaa31d56bed0d2aed50c6a",
+        "vocoder_ups_1_kernel_0_dilation_1_convs1": "59004735751142b56139c46f69010d62",
+        "vocoder_ups_1_kernel_2_dilation_2_convs2": "4b5beab1e3ca503d8e5a06da21029f54",
+        "vocoder_ups_3_kernel_0_dilation_0_convs2": "28154eabc49bbca1a4e43427a3b869e6",
+        "vocoder_ups_3_kernel_2_dilation_1_convs2": "77c12a1236841f4bd097749a8c389121",
+        "vocoder_ups_1_kernel_2_dilation_1_convs2": "9a3078f0025d9e283f586886fefa2b0e",
+        "vocoder_ups_0_kernel_1_dilation_1_convs1": "9e634715c6e8f7c45f29d72eb40c6101",
+        "vocoder_ups_2_kernel_0_dilation_0_convs2": "2ae0aedb71e43808e64c92f8d16fbc25",
+        "vocoder_ups_2_kernel_0_dilation_2_convs1": "b6e5c2ac4ebcef5d468905c6f3f8d26d",
+        "vocoder_ups_0_kernel_1_dilation_0_convs2": "57ce4d1ae5ac3a90bc42d73429537984",
+        "vocoder_ups_3_kernel_0_dilation_0_convs1": "7a8c49f88747f2ecc668ecb9c7dc873c",
+        "vocoder_preconv": "7d448ea92d1e803c0fd561641d9386cd",
+        "vocoder_ups_3_kernel_1_dilation_1_convs2": "b0ce381cf3735bcf32720730fbec8930",
+        "vocoder_ups_2_kernel_2_dilation_2_convs2": "47d0737476bf6dfcea0cd5ed239b1732",
+        "vocoder_ups_3_kernel_2_dilation_2_convs1": "2eb07d626f6b158111592b60c26e85ed",
+        "vocoder_ups_0_kernel_2_dilation_2_convs1": "75024aec4912fa01504501194b040505",
+        "vocoder_ups_3_kernel_2_dilation_1_convs1": "5d30909ff09eb510c031fe6aa733a4de",
+        "vocoder_ups_2_kernel_1_dilation_1_convs2": "c5fc805ae75fca4ae336420921152899",
+        "vocoder_ups_1_kernel_2_dilation_0_convs1": "316cc0f8fc97a41fdbdf445e08ebd0e6",
+        "vocoder_ups_2_kernel_2_dilation_1_convs1": "bc46315ecafa9a571de41e124f49caaa",
+        "vocoder_ups_3_kernel_1_dilation_0_convs2": "dbcb7ce1b60fa7b8a4d6d06d6c5855e8",
+        "vocoder_ups_1_kernel_0_dilation_0_convs2": "eef7b7594a95ba3328f5a5cbf3d6cffd",
+        "vocoder_ups_1_kernel_1_dilation_2_convs2": "3e60b24d886d82aa2b829f981b77454a",
+        "vocoder_ups_1_kernel_1_dilation_0_convs1": "9e83b12d79387e3d9828dda7d79d6671",
+        "vocoder_postconv": "01b0f22f0f929f0510d4c91dc1acff8a",
+        "vocoder_ups_0_kernel_1_dilation_2_convs2": "bbc929cdfcc3e9dab9aefbc7be4656ad",
+        "vocoder_ups_1_kernel_0_dilation_2_convs2": "62f1fb9f32baef2a4fd72249a829ad39",
+        "vocoder_ups_0_kernel_0_dilation_2_convs2": "5a3291e0925e55cd23b4e20c40093895",
+        "vocoder_ups_2_kernel_0_dilation_1_convs2": "44b95bdd90c9a9825f61693f2e655d70",
+        "vocoder_ups_0_kernel_1_dilation_2_convs1": "7b30b0339295159a7b6804235a3a4eb1",
+        "vocoder_ups_2_kernel_2_dilation_0_convs1": "c1b4b81d372327ebfa966cc5fc2ce71a",
+        "vocoder_ups_2_kernel_1_dilation_2_convs1": "f411bcc9f54d2f550fdc38346ff96ab9",
+        "vocoder_ups_1_kernel_1_dilation_1_convs1": "f14261787910cd2f3d57148f1ebe2ea8",
+        "vocoder_ups_0_kernel_1_dilation_1_convs2": "e5381e41dc0b6b2586bac3b92df01847",
+        "vocoder_ups_2_kernel_2_dilation_1_convs2": "9d78c732daca5a18107e54a84fa9a2c0",
+        "vocoder_upsampler_1": "9e09b8e0f534c0134193a41029ae7e77"
+      }
+    }
+  ],
+  "files": {
+    "b1a2bb65fc06e2821636144a7d192a83": {
+      "type": "SENTISMODEL",
+      "md5sum": "b1a2bb65fc06e2821636144a7d192a83",
+      "filename": "encoder.sentis"
+    },
+    "45e0e221d5342835b2ee92423f8cdcdc": {
+      "type": "SENTISMODEL",
+      "md5sum": "45e0e221d5342835b2ee92423f8cdcdc",
+      "filename": "decoder_preprocess.sentis"
+    },
+    "2eeaccd779f985e28a40252e99070dc0": {
+      "type": "SENTISMODEL",
+      "md5sum": "2eeaccd779f985e28a40252e99070dc0",
+      "filename": "decoder_chunked.sentis"
+    },
+    "aa2bbbf7c2a80d213d0bb3c8cdeb1f43": {
+      "type": "SENTISMODEL",
+      "md5sum": "aa2bbbf7c2a80d213d0bb3c8cdeb1f43",
+      "filename": "decoder_postprocess.sentis"
+    },
+    "15ba818ef74385bbee7cdb9f9bd448af": {
+      "type": "SENTISMODEL",
+      "md5sum": "15ba818ef74385bbee7cdb9f9bd448af",
+      "filename": "vocoder_ups_3_kernel_0_dilation_1_convs2.sentis"
+    },
+    "2b8690953e507b0aa4da42046db78d16": {
+      "type": "SENTISMODEL",
+      "md5sum": "2b8690953e507b0aa4da42046db78d16",
+      "filename": "vocoder_ups_0_kernel_0_dilation_1_convs2.sentis"
+    },
+    "7f98a578d48914b38dabca6b77e65ac8": {
+      "type": "SENTISMODEL",
+      "md5sum": "7f98a578d48914b38dabca6b77e65ac8",
+      "filename": "vocoder_ups_3_kernel_1_dilation_2_convs2.sentis"
+    },
+    "29ee0fe7230219691640f69435039e52": {
+      "type": "SENTISMODEL",
+      "md5sum": "29ee0fe7230219691640f69435039e52",
+      "filename": "vocoder_ups_3_kernel_2_dilation_2_convs2.sentis"
+    },
+    "1af31432c6ee28872a66068cd7c2b63c": {
+      "type": "SENTISMODEL",
+      "md5sum": "1af31432c6ee28872a66068cd7c2b63c",
+      "filename": "vocoder_ups_1_kernel_1_dilation_1_convs2.sentis"
+    },
+    "00df4a21c772639d6dec02460fbadc64": {
+      "type": "SENTISMODEL",
+      "md5sum": "00df4a21c772639d6dec02460fbadc64",
+      "filename": "vocoder_ups_0_kernel_2_dilation_2_convs2.sentis"
+    },
+    "4d696e70efa9e10b43cb622190015bac": {
+      "type": "SENTISMODEL",
+      "md5sum": "4d696e70efa9e10b43cb622190015bac",
+      "filename": "vocoder_ups_2_kernel_0_dilation_2_convs2.sentis"
+    },
+    "e26b30bd26fe9a39609359dfead675c5": {
+      "type": "SENTISMODEL",
+      "md5sum": "e26b30bd26fe9a39609359dfead675c5",
+      "filename": "vocoder_ups_3_kernel_1_dilation_0_convs1.sentis"
+    },
+    "53f12e3a68fc59d63dceb158d585b70e": {
+      "type": "SENTISMODEL",
+      "md5sum": "53f12e3a68fc59d63dceb158d585b70e",
+      "filename": "vocoder_ups_0_kernel_0_dilation_2_convs1.sentis"
+    },
+    "3cbc40815bf2dd20994be614cef4311c": {
+      "type": "SENTISMODEL",
+      "md5sum": "3cbc40815bf2dd20994be614cef4311c",
+      "filename": "vocoder_ups_1_kernel_0_dilation_1_convs2.sentis"
+    },
+    "f0c80e428062905b00deb473211afb42": {
+      "type": "SENTISMODEL",
+      "md5sum": "f0c80e428062905b00deb473211afb42",
+      "filename": "vocoder_ups_2_kernel_1_dilation_1_convs1.sentis"
+    },
+    "3b777b122fd5bbe09d270794d2f17870": {
+      "type": "SENTISMODEL",
+      "md5sum": "3b777b122fd5bbe09d270794d2f17870",
+      "filename": "vocoder_ups_2_kernel_2_dilation_0_convs2.sentis"
+    },
+    "d3c9116e7fc2989b64cc4aea4191d85a": {
+      "type": "SENTISMODEL",
+      "md5sum": "d3c9116e7fc2989b64cc4aea4191d85a",
+      "filename": "vocoder_ups_3_kernel_0_dilation_2_convs1.sentis"
+    },
+    "9d35de10e9f5e0abd80e601b0701ee05": {
+      "type": "SENTISMODEL",
+      "md5sum": "9d35de10e9f5e0abd80e601b0701ee05",
+      "filename": "vocoder_ups_1_kernel_2_dilation_1_convs1.sentis"
+    },
+    "fd14a3355508c5710d636f5db038456e": {
+      "type": "SENTISMODEL",
+      "md5sum": "fd14a3355508c5710d636f5db038456e",
+      "filename": "vocoder_ups_0_kernel_1_dilation_0_convs1.sentis"
+    },
+    "2775ba4953b1df4e0b7f290afdff2bf7": {
+      "type": "SENTISMODEL",
+      "md5sum": "2775ba4953b1df4e0b7f290afdff2bf7",
+      "filename": "vocoder_ups_3_kernel_0_dilation_1_convs1.sentis"
+    },
+    "344bb61fc4e3e8b67a26c3c3a8294abf": {
+      "type": "SENTISMODEL",
+      "md5sum": "344bb61fc4e3e8b67a26c3c3a8294abf",
+      "filename": "vocoder_ups_0_kernel_2_dilation_1_convs2.sentis"
+    },
+    "20177a40bfb654ddea3054b60d755b8d": {
+      "type": "SENTISMODEL",
+      "md5sum": "20177a40bfb654ddea3054b60d755b8d",
+      "filename": "vocoder_ups_3_kernel_1_dilation_2_convs1.sentis"
+    },
+    "3ee403fe13f031b4c75e8cdd9690f2fb": {
+      "type": "SENTISMODEL",
+      "md5sum": "3ee403fe13f031b4c75e8cdd9690f2fb",
+      "filename": "vocoder_ups_2_kernel_1_dilation_0_convs1.sentis"
+    },
+    "8d48c1825a210ef8e29cbd9b2aeab2a7": {
+      "type": "SENTISMODEL",
+      "md5sum": "8d48c1825a210ef8e29cbd9b2aeab2a7",
+      "filename": "vocoder_upsampler_3.sentis"
+    },
+    "bfdbb8e526046ec7efa357b5e572a47b": {
+      "type": "SENTISMODEL",
+      "md5sum": "bfdbb8e526046ec7efa357b5e572a47b",
+      "filename": "vocoder_ups_0_kernel_0_dilation_0_convs1.sentis"
+    },
+    "2b0ed623c9a96ac9907091b4024f57dd": {
+      "type": "SENTISMODEL",
+      "md5sum": "2b0ed623c9a96ac9907091b4024f57dd",
+      "filename": "vocoder_ups_3_kernel_2_dilation_0_convs2.sentis"
+    },
+    "5b3a5219105759fcc85b78f05f97376d": {
+      "type": "SENTISMODEL",
+      "md5sum": "5b3a5219105759fcc85b78f05f97376d",
+      "filename": "vocoder_ups_1_kernel_0_dilation_2_convs1.sentis"
+    },
+    "0f494d6cf273c9477adfed0d344b2029": {
+      "type": "SENTISMODEL",
+      "md5sum": "0f494d6cf273c9477adfed0d344b2029",
+      "filename": "vocoder_ups_1_kernel_0_dilation_0_convs1.sentis"
+    },
+    "19c78170edac5a392277b0c53f554f21": {
+      "type": "SENTISMODEL",
+      "md5sum": "19c78170edac5a392277b0c53f554f21",
+      "filename": "vocoder_ups_2_kernel_0_dilation_0_convs1.sentis"
+    },
+    "b8d7f98e5a975da0b6b2f1f25babb8ae": {
+      "type": "SENTISMODEL",
+      "md5sum": "b8d7f98e5a975da0b6b2f1f25babb8ae",
+      "filename": "vocoder_ups_0_kernel_2_dilation_1_convs1.sentis"
+    },
+    "c30505da2476c2638b7d8ad3c03192e9": {
+      "type": "SENTISMODEL",
+      "md5sum": "c30505da2476c2638b7d8ad3c03192e9",
+      "filename": "vocoder_ups_2_kernel_1_dilation_2_convs2.sentis"
+    },
+    "dae48f094671f1f6a548d5afc03c2492": {
+      "type": "SENTISMODEL",
+      "md5sum": "dae48f094671f1f6a548d5afc03c2492",
+      "filename": "vocoder_ups_0_kernel_0_dilation_0_convs2.sentis"
+    },
+    "3db6d34edf6cbebd3e41bbd54df63cb1": {
+      "type": "SENTISMODEL",
+      "md5sum": "3db6d34edf6cbebd3e41bbd54df63cb1",
+      "filename": "vocoder_ups_0_kernel_0_dilation_1_convs1.sentis"
+    },
+    "10399e099f9cda940bbe983c6793376a": {
+      "type": "SENTISMODEL",
+      "md5sum": "10399e099f9cda940bbe983c6793376a",
+      "filename": "vocoder_ups_3_kernel_2_dilation_0_convs1.sentis"
+    },
+    "1ee56a0952d4130dd206afb1b881d409": {
+      "type": "SENTISMODEL",
+      "md5sum": "1ee56a0952d4130dd206afb1b881d409",
+      "filename": "vocoder_ups_3_kernel_1_dilation_1_convs1.sentis"
+    },
+    "102ec6aaa7c1ac18664349c91ee8225f": {
+      "type": "SENTISMODEL",
+      "md5sum": "102ec6aaa7c1ac18664349c91ee8225f",
+      "filename": "vocoder_ups_1_kernel_2_dilation_2_convs1.sentis"
+    },
+    "4c22c3513af3b093a2b170be4892df28": {
+      "type": "SENTISMODEL",
+      "md5sum": "4c22c3513af3b093a2b170be4892df28",
+      "filename": "vocoder_ups_1_kernel_1_dilation_0_convs2.sentis"
+    },
+    "550fe2c9dbb4220e3bab6e4caa4af07a": {
+      "type": "SENTISMODEL",
+      "md5sum": "550fe2c9dbb4220e3bab6e4caa4af07a",
+      "filename": "vocoder_ups_3_kernel_0_dilation_2_convs2.sentis"
+    },
+    "86126c8b3e0d26f40e3d4e6a8f5f3ec1": {
+      "type": "SENTISMODEL",
+      "md5sum": "86126c8b3e0d26f40e3d4e6a8f5f3ec1",
+      "filename": "vocoder_upsampler_2.sentis"
+    },
+    "240f1da2f7561c7bb97203cb10c742dc": {
+      "type": "SENTISMODEL",
+      "md5sum": "240f1da2f7561c7bb97203cb10c742dc",
+      "filename": "vocoder_upsampler_0.sentis"
+    },
+    "6f577f42f3426638d3d19e69335af2dc": {
+      "type": "SENTISMODEL",
+      "md5sum": "6f577f42f3426638d3d19e69335af2dc",
+      "filename": "vocoder_ups_1_kernel_2_dilation_0_convs2.sentis"
+    },
+    "715dbc37b3ffcd3d78d4ccc67efc66be": {
+      "type": "SENTISMODEL",
+      "md5sum": "715dbc37b3ffcd3d78d4ccc67efc66be",
+      "filename": "vocoder_ups_0_kernel_2_dilation_0_convs1.sentis"
+    },
+    "2356ce417c5d4d334aba5c282a9646b4": {
+      "type": "SENTISMODEL",
+      "md5sum": "2356ce417c5d4d334aba5c282a9646b4",
+      "filename": "vocoder_ups_1_kernel_1_dilation_2_convs1.sentis"
+    },
+    "5d70cbd66994a4535624b073269ef507": {
+      "type": "SENTISMODEL",
+      "md5sum": "5d70cbd66994a4535624b073269ef507",
+      "filename": "vocoder_ups_2_kernel_2_dilation_2_convs1.sentis"
+    },
+    "21ea087b2e6a90595a28d22aadd7d5e2": {
+      "type": "SENTISMODEL",
+      "md5sum": "21ea087b2e6a90595a28d22aadd7d5e2",
+      "filename": "vocoder_ups_2_kernel_1_dilation_0_convs2.sentis"
+    },
+    "3773750141f812a1df80f0397bb70d6b": {
+      "type": "SENTISMODEL",
+      "md5sum": "3773750141f812a1df80f0397bb70d6b",
+      "filename": "vocoder_ups_2_kernel_0_dilation_1_convs1.sentis"
+    },
+    "fcf3d88d81eaa31d56bed0d2aed50c6a": {
+      "type": "SENTISMODEL",
+      "md5sum": "fcf3d88d81eaa31d56bed0d2aed50c6a",
+      "filename": "vocoder_ups_0_kernel_2_dilation_0_convs2.sentis"
+    },
+    "59004735751142b56139c46f69010d62": {
+      "type": "SENTISMODEL",
+      "md5sum": "59004735751142b56139c46f69010d62",
+      "filename": "vocoder_ups_1_kernel_0_dilation_1_convs1.sentis"
+    },
+    "4b5beab1e3ca503d8e5a06da21029f54": {
+      "type": "SENTISMODEL",
+      "md5sum": "4b5beab1e3ca503d8e5a06da21029f54",
+      "filename": "vocoder_ups_1_kernel_2_dilation_2_convs2.sentis"
+    },
+    "28154eabc49bbca1a4e43427a3b869e6": {
+      "type": "SENTISMODEL",
+      "md5sum": "28154eabc49bbca1a4e43427a3b869e6",
+      "filename": "vocoder_ups_3_kernel_0_dilation_0_convs2.sentis"
+    },
+    "77c12a1236841f4bd097749a8c389121": {
+      "type": "SENTISMODEL",
+      "md5sum": "77c12a1236841f4bd097749a8c389121",
+      "filename": "vocoder_ups_3_kernel_2_dilation_1_convs2.sentis"
+    },
+    "9a3078f0025d9e283f586886fefa2b0e": {
+      "type": "SENTISMODEL",
+      "md5sum": "9a3078f0025d9e283f586886fefa2b0e",
+      "filename": "vocoder_ups_1_kernel_2_dilation_1_convs2.sentis"
+    },
+    "9e634715c6e8f7c45f29d72eb40c6101": {
+      "type": "SENTISMODEL",
+      "md5sum": "9e634715c6e8f7c45f29d72eb40c6101",
+      "filename": "vocoder_ups_0_kernel_1_dilation_1_convs1.sentis"
+    },
+    "2ae0aedb71e43808e64c92f8d16fbc25": {
+      "type": "SENTISMODEL",
+      "md5sum": "2ae0aedb71e43808e64c92f8d16fbc25",
+      "filename": "vocoder_ups_2_kernel_0_dilation_0_convs2.sentis"
+    },
+    "b6e5c2ac4ebcef5d468905c6f3f8d26d": {
+      "type": "SENTISMODEL",
+      "md5sum": "b6e5c2ac4ebcef5d468905c6f3f8d26d",
+      "filename": "vocoder_ups_2_kernel_0_dilation_2_convs1.sentis"
+    },
+    "57ce4d1ae5ac3a90bc42d73429537984": {
+      "type": "SENTISMODEL",
+      "md5sum": "57ce4d1ae5ac3a90bc42d73429537984",
+      "filename": "vocoder_ups_0_kernel_1_dilation_0_convs2.sentis"
+    },
+    "7a8c49f88747f2ecc668ecb9c7dc873c": {
+      "type": "SENTISMODEL",
+      "md5sum": "7a8c49f88747f2ecc668ecb9c7dc873c",
+      "filename": "vocoder_ups_3_kernel_0_dilation_0_convs1.sentis"
+    },
+    "7d448ea92d1e803c0fd561641d9386cd": {
+      "type": "SENTISMODEL",
+      "md5sum": "7d448ea92d1e803c0fd561641d9386cd",
+      "filename": "vocoder_preconv.sentis"
+    },
+    "b0ce381cf3735bcf32720730fbec8930": {
+      "type": "SENTISMODEL",
+      "md5sum": "b0ce381cf3735bcf32720730fbec8930",
+      "filename": "vocoder_ups_3_kernel_1_dilation_1_convs2.sentis"
+    },
+    "47d0737476bf6dfcea0cd5ed239b1732": {
+      "type": "SENTISMODEL",
+      "md5sum": "47d0737476bf6dfcea0cd5ed239b1732",
+      "filename": "vocoder_ups_2_kernel_2_dilation_2_convs2.sentis"
+    },
+    "2eb07d626f6b158111592b60c26e85ed": {
+      "type": "SENTISMODEL",
+      "md5sum": "2eb07d626f6b158111592b60c26e85ed",
+      "filename": "vocoder_ups_3_kernel_2_dilation_2_convs1.sentis"
+    },
+    "75024aec4912fa01504501194b040505": {
+      "type": "SENTISMODEL",
+      "md5sum": "75024aec4912fa01504501194b040505",
+      "filename": "vocoder_ups_0_kernel_2_dilation_2_convs1.sentis"
+    },
+    "5d30909ff09eb510c031fe6aa733a4de": {
+      "type": "SENTISMODEL",
+      "md5sum": "5d30909ff09eb510c031fe6aa733a4de",
+      "filename": "vocoder_ups_3_kernel_2_dilation_1_convs1.sentis"
+    },
+    "c5fc805ae75fca4ae336420921152899": {
+      "type": "SENTISMODEL",
+      "md5sum": "c5fc805ae75fca4ae336420921152899",
+      "filename": "vocoder_ups_2_kernel_1_dilation_1_convs2.sentis"
+    },
+    "316cc0f8fc97a41fdbdf445e08ebd0e6": {
+      "type": "SENTISMODEL",
+      "md5sum": "316cc0f8fc97a41fdbdf445e08ebd0e6",
+      "filename": "vocoder_ups_1_kernel_2_dilation_0_convs1.sentis"
+    },
+    "bc46315ecafa9a571de41e124f49caaa": {
+      "type": "SENTISMODEL",
+      "md5sum": "bc46315ecafa9a571de41e124f49caaa",
+      "filename": "vocoder_ups_2_kernel_2_dilation_1_convs1.sentis"
+    },
+    "dbcb7ce1b60fa7b8a4d6d06d6c5855e8": {
+      "type": "SENTISMODEL",
+      "md5sum": "dbcb7ce1b60fa7b8a4d6d06d6c5855e8",
+      "filename": "vocoder_ups_3_kernel_1_dilation_0_convs2.sentis"
+    },
+    "eef7b7594a95ba3328f5a5cbf3d6cffd": {
+      "type": "SENTISMODEL",
+      "md5sum": "eef7b7594a95ba3328f5a5cbf3d6cffd",
+      "filename": "vocoder_ups_1_kernel_0_dilation_0_convs2.sentis"
+    },
+    "3e60b24d886d82aa2b829f981b77454a": {
+      "type": "SENTISMODEL",
+      "md5sum": "3e60b24d886d82aa2b829f981b77454a",
+      "filename": "vocoder_ups_1_kernel_1_dilation_2_convs2.sentis"
+    },
+    "9e83b12d79387e3d9828dda7d79d6671": {
+      "type": "SENTISMODEL",
+      "md5sum": "9e83b12d79387e3d9828dda7d79d6671",
+      "filename": "vocoder_ups_1_kernel_1_dilation_0_convs1.sentis"
+    },
+    "01b0f22f0f929f0510d4c91dc1acff8a": {
+      "type": "SENTISMODEL",
+      "md5sum": "01b0f22f0f929f0510d4c91dc1acff8a",
+      "filename": "vocoder_postconv.sentis"
+    },
+    "bbc929cdfcc3e9dab9aefbc7be4656ad": {
+      "type": "SENTISMODEL",
+      "md5sum": "bbc929cdfcc3e9dab9aefbc7be4656ad",
+      "filename": "vocoder_ups_0_kernel_1_dilation_2_convs2.sentis"
+    },
+    "62f1fb9f32baef2a4fd72249a829ad39": {
+      "type": "SENTISMODEL",
+      "md5sum": "62f1fb9f32baef2a4fd72249a829ad39",
+      "filename": "vocoder_ups_1_kernel_0_dilation_2_convs2.sentis"
+    },
+    "5a3291e0925e55cd23b4e20c40093895": {
+      "type": "SENTISMODEL",
+      "md5sum": "5a3291e0925e55cd23b4e20c40093895",
+      "filename": "vocoder_ups_0_kernel_0_dilation_2_convs2.sentis"
+    },
+    "44b95bdd90c9a9825f61693f2e655d70": {
+      "type": "SENTISMODEL",
+      "md5sum": "44b95bdd90c9a9825f61693f2e655d70",
+      "filename": "vocoder_ups_2_kernel_0_dilation_1_convs2.sentis"
+    },
+    "7b30b0339295159a7b6804235a3a4eb1": {
+      "type": "SENTISMODEL",
+      "md5sum": "7b30b0339295159a7b6804235a3a4eb1",
+      "filename": "vocoder_ups_0_kernel_1_dilation_2_convs1.sentis"
+    },
+    "c1b4b81d372327ebfa966cc5fc2ce71a": {
+      "type": "SENTISMODEL",
+      "md5sum": "c1b4b81d372327ebfa966cc5fc2ce71a",
+      "filename": "vocoder_ups_2_kernel_2_dilation_0_convs1.sentis"
+    },
+    "f411bcc9f54d2f550fdc38346ff96ab9": {
+      "type": "SENTISMODEL",
+      "md5sum": "f411bcc9f54d2f550fdc38346ff96ab9",
+      "filename": "vocoder_ups_2_kernel_1_dilation_2_convs1.sentis"
+    },
+    "f14261787910cd2f3d57148f1ebe2ea8": {
+      "type": "SENTISMODEL",
+      "md5sum": "f14261787910cd2f3d57148f1ebe2ea8",
+      "filename": "vocoder_ups_1_kernel_1_dilation_1_convs1.sentis"
+    },
+    "e5381e41dc0b6b2586bac3b92df01847": {
+      "type": "SENTISMODEL",
+      "md5sum": "e5381e41dc0b6b2586bac3b92df01847",
+      "filename": "vocoder_ups_0_kernel_1_dilation_1_convs2.sentis"
+    },
+    "9d78c732daca5a18107e54a84fa9a2c0": {
+      "type": "SENTISMODEL",
+      "md5sum": "9d78c732daca5a18107e54a84fa9a2c0",
+      "filename": "vocoder_ups_2_kernel_2_dilation_1_convs2.sentis"
+    },
+    "9e09b8e0f534c0134193a41029ae7e77": {
+      "type": "SENTISMODEL",
+      "md5sum": "9e09b8e0f534c0134193a41029ae7e77",
+      "filename": "vocoder_upsampler_1.sentis"
+    }
+  },
+  "compatibility": {},
+  "name": "lingotion-actorpack-sentis-v1_0_0-elias-swe-eng-high-d2d6612a",
+  "createtime": "2025-04-16T06:59:35.643775"
+}

@@ -1,0 +1,220 @@
+### Test fire affected by floods
+Simulate the update rule of a cellular automata based game set in a medieval time, like a medieval SimCity.
+I'll give you the JSON representations of the cells surrounding a specific cell (the 8 cardinal directions), and the representation of the central cell we want to update at the previous timestep and you should generate the representation of the central cell for the next timestep.
+Each timestep should represent a week elapsing. When reasonable, incorporate what is happening in neighboring cells.
+Focus on the event that should happen first, then proliferate the rest of the values.
+
+# Rules
+
+- cells can change type (for isntance a forest on fire can become a plain, a farm fiels that has been harvested can become a plain, a castle that has been attacked can become a ruin, a village can grow into a castle)
+- you can fortify the central cell only if there are enough stones in all the cells at the previous timestep
+- `type` and `icon` can only have one selected value
+- `status` can have at most 2 at a time
+- `history` should be limited to 3 sentences.
+- `resources` must range from 0 to 1000
+- `description` should be evocative as well as hint at mechanical relevance (i.e. is bountiful, is void of life, etc.)
+- caves extinguish after having been mined of their materials
+- villages can promote to castles when lots of food is available, population increases and lots of stone is available
+
+
+# Cell JSON Schema
+
+{
+  "event": str (a textual description of what happened in this cell that led to the change from the previous state to the current state),
+  "type": "forest | farmland | village | castle | ruins | bandit_camp | river | plain | hill | mountain | cave",
+  "description": str (A short, evocative text about this spot),
+  "icon": "🌳 | 🌱 | 🏘️ | 🏰 | 💀 | ⚔️ | 🌊 | 🌾 | ⛰️ | 🪨 | 🕳️",
+  "population": int,
+  "resources": {
+    "food": int,
+    "wood": int,
+    "stone": int
+  },
+  "morale": int,
+  "status": ["storm", "fire", "fortified", "plague", "flood", "drought", "sieged"],
+}
+
+# Example Cells
+
+Peaceful River
+{
+  "type": "plain",
+  "description": "A tranquil plain.",
+  "icon": "🌾",
+  "population": 0,
+  "resources": {
+    "food": 8,
+    "wood": 2,
+    "stone": 0
+  },
+  "morale": 50,
+  "status": ["flood"],
+  "event": ""
+}
+
+Castle Under Siege
+{
+  "type": "plain",
+  "description": "A tranquil plain.",
+  "icon": "🌾",
+  "population": 15,
+  "resources": {
+    "food": 5,
+    "wood": 3,
+    "stone": 20
+  },
+  "morale": 25,
+  "status": ["sieged", "fire"],
+  "event": "Flames engulf the outer walls as enemy troops attack."
+}
+
+# Surrounding Cells at previous timestep
+
+North West
+{
+  "event": "",
+  "type": "plain",
+  "description": "A tranquil plain.",
+  "icon": "🌾",
+  "population": 2,
+  "resources": {
+    "food": 5,
+    "wood": 10,
+    "stone": 0
+  },
+  "morale": 50,
+  "status": ["flood"],
+}
+
+North
+{
+  "event": "",
+  "type": "plain",
+  "description": "A tranquil plain.",
+  "icon": "🌾",
+  "population": 2,
+  "resources": {
+    "food": 5,
+    "wood": 10,
+    "stone": 0
+  },
+  "morale": 50,
+  "status": ["flood"],
+}
+
+North East
+{
+  "event": "",
+  "type": "plain",
+  "description": "A tranquil plain.",
+  "icon": "🌾",
+  "population": 2,
+  "resources": {
+    "food": 5,
+    "wood": 10,
+    "stone": 0
+  },
+  "morale": 50,
+  "status": ["flood"],
+}
+
+East
+{
+  "event": "",
+  "type": "plain",
+  "description": "A tranquil plain.",
+  "icon": "🌾",
+  "population": 100,
+  "resources": {
+    "food": 0,
+    "wood": 0,
+    "stone": 0
+  },
+  "morale": 50,
+  "status": ["fortified"],
+}
+
+South East
+{
+  "event": "",
+  "type": "plain",
+  "description": "",
+  "icon": "🌾",
+  "population": 0,
+  "resources": {
+    "food": 2,
+    "wood": 2,
+    "stone": 2
+  },
+  "morale": 0,
+  "status": ["flood"],
+}
+
+South
+{
+  "event": "",
+  "type": "plain",
+  "description": "A tranquil plain.",
+  "icon": "🌾",
+  "population": 0,
+  "resources": {
+    "food": 10,
+    "wood": 0,
+    "stone": 2
+  },
+  "morale": 0,
+  "status": ["flood"],
+}
+
+South West
+{
+  "event": "",
+  "type": "plain",
+  "description": "A tranquil plain.",
+  "icon": "🌾",
+  "population": 0,
+  "resources": {
+    "food": 10,
+    "wood": 0,
+    "stone": 2
+  },
+  "morale": 0,
+  "status": ["flood"],
+}
+
+West
+{
+  "event": "",
+  "type": "plain",
+  "description": "A tranquil plain.",
+  "icon": "🌾",
+  "population": 2,
+  "resources": {
+    "food": 5,
+    "wood": 10,
+    "stone": 0
+  },
+  "morale": 50,
+  "status": ["fire"],
+}
+
+# Current central Cell at previous timestep
+
+{
+  "event": "Fire!",
+  "type": "plain",
+  "description": "A tranquil plain.",
+  "icon": "🏘️",
+  "population": 30,
+  "resources": {
+    "food": 2,
+    "wood": 2,
+    "stone": 0
+  },
+  "morale": 50,
+  "status": ["fire"],
+}
+
+# Task
+
+Generate ONLY the JSON of ONLY ONE CELL, the current central cell according to the cell JSON Schema.

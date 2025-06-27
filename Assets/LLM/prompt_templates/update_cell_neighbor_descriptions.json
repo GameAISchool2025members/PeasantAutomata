@@ -1,0 +1,141 @@
+### This iteration has more in depth neighbor descriptions.
+"""You are a world building agent. We are currently in the medieval period, year 500. Your task is to update the currently inputted cell. Each update represents a month of time passing. Here is the JSON that represents the current cell which has the following values:
+{
+  "type": "village",
+  "description": "A small berg that's quietly existing. The townfolk tend to their farms next to the castle.",
+  "icon": "🏘️ ",
+  "population": 10,
+  "resources": {
+    "food": 5,
+    "wood": 10,
+    "stone": 3
+  },
+  "morale": 50,
+  "status": [],
+  "event": "",
+  "history": "",
+  "neighbours": {
+    "N": {"type": "farm",
+      "description": "A small farm being tilled by the residents nearby. The crops seem to be healthy and somewhat bountiful.",
+      "icon": "🏘️ ",
+      "population": 2,
+      "resources": {
+        "food": 25,
+        "wood": 3,
+        "stone": 4
+      },
+      "morale": 50,
+      "status": [],
+      "event": "",
+      "history": ""},
+    "NE": {"type": "farmland",
+      "description": "A small farm being tilled by the residents nearby. The crops seem to be very healthy and bountiful. They're currently burning down.",
+      "icon": "🏘️ ",
+      "population": 1,
+      "resources": {
+        "food": 40,
+        "wood": 3,
+        "stone": 2
+      },
+      "morale": 50,
+      "status": ["fire"],
+      "event": "",
+      "history": ""},
+    "E": {"type": "castle",
+      "description": "Meager castle that holds the town's baron. They are preparing for a battle.",
+      "icon": "🏰",
+      "population": 10,
+      "resources": {
+        "food": 5,
+        "wood": 10,
+        "stone": 3
+      },
+      "morale": 50,
+      "status": ["fortified"],
+      "event": "",
+      "history": ""},
+    "SE": {"type": "castle",
+      "description": "Meager castle that's an extension. It is currently being attacked by bandits.",
+      "icon": "🏰",
+      "population": 10,
+      "resources": {
+        "food": 5,
+        "wood": 10,
+        "stone": 3
+      },
+      "morale": 50,
+      "status": ["sieged"],
+      "event": "",
+      "history": ""},
+    "S": {"type": "river",
+      "description": "A large river that is relatively calm. There are plenty of fish.",
+      "icon": "🌊",
+      "population": 10,
+      "resources": {
+        "food": 19,
+        "wood": 18,
+        "stone": 5
+      },
+      "morale": 50,
+      "status": [],
+      "event": "",
+      "history": ""},
+    "SW": {"type": "river",
+      "description": "A large river that is relatively calm. There are plenty of fish.",
+      "icon": "🌊",
+      "population": 10,
+      "resources": {
+        "food": 5,
+        "wood": 10,
+        "stone": 3
+      },
+      "morale": 50,
+      "status": [],
+      "event": "",
+      "history": ""},
+    "W": {"type": "forest",
+      "description": "A thick forest full of healthy trees. The wildlife here are very agitated.",
+      "icon": "🌳",
+      "population": 1,
+      "resources": {
+        "food": 18,
+        "wood": 263,
+        "stone": 95
+      },
+      "morale": 50,
+      "status": ["fire"],
+      "event": "",
+      "history": ""},
+    "NW": {"type": "forest",
+      "description": "A thick forest full of healthy trees. The wildlife here are docile.",
+      "icon": "🌳",
+      "population": 1,
+      "resources": {
+        "food": 41,
+        "wood": 353,
+        "stone": 79
+      },
+      "morale": 50,
+      "status": [],
+      "event": "",
+      "history": ""}
+  }
+}
+
+Expected output template:
+"type": Mutually Exclusive "forest | farmland | village | castle | ruins | bandit_camp | river | plain | hill | mountain | cave" only select from this list,
+  "description": "A short, evocative text about this spot.",
+  "icon": Mutually Exclusive"🌳 | 🌱 | 🏘️ | 🏰 | 💀 | ⚔️ | 🌊 | 🌾 | ⛰️ | 🪨 | 🕳️",
+  "population": [numerical value ranging from 0 to 10000],
+  "resources": {
+    "food": [numerical value ranging from 0 to 10000],
+    "wood": [numerical value ranging from 0 to 10000],
+    "stone": [numerical value ranging from 0 to 10000]
+  },
+  "morale": [numerical value ranging from 0 to 100],
+  "status": Mutually Inclusive ["storm", "fire", "fortified", "plague", "flood", "drought", "sieged"] only select from this list,
+  "event": "A possible current event that makes sense given the current status of the cell as well as its neighbors",
+  "history": "A summary of previously occurred events. 3 sentences maximum"
+
+Respond only with the expended JSON template. No need for reasoning or fluff.
+"""

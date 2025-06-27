@@ -28,10 +28,14 @@ Images
 ==========
 
 ![Screenshot](images/Bandit.png)
-
-==========
+![Screenshot](images/BasicSetup.png)
 
 ### Assets used
+==========
+
+- <a href="https://kaylousberg.itch.io/kaykit-medieval-builder-pack" title="Medieval Builder Pack">Medieval Builder Pack - Kay Lousberg</a>
+- <a href="https://kaylousberg.itch.io/kaykit-medieval-hexagon" title="Medieval Hexagon Pack">Medieval Hexagon Pack - Kay Lousberg</a>
+
 
 - <a href="https://www.flaticon.com/free-icons/fire" title="fire icons">Fire icons created by Freepik - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/drought" title="drought icons">Drought icons created by Freepik - Flaticon</a>
